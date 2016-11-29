@@ -49,6 +49,7 @@
 		border-style: solid;
 		font-size: 20px;
 	}
+
 </style>
 
 <body>
@@ -69,7 +70,7 @@
 			<div id="coffee" class="tabcontent">							  	
 				<table>
 				  	<tr>
-				  		<th id="" style="width: 120px; height: 120px; background-color: #E23053;">AMERICANO</th>
+				  		<button id="americano_h"><th style="width: 120px; height: 120px; background-color: #E23053;">AMERICANO</th></button>
 				  		<th id="" style="width: 120px; height: 120px; background-color: #E23053;">222</th>
 				  		<th id="" style="width: 120px; height: 120px; background-color: #E23053">333</th>
 						<th id="" style="width: 120px; height: 120px; background-color: #E23053">444</th>
@@ -223,14 +224,18 @@
 			<div id="snack" class="tabcontent">
 				<table>
 					<tr>
-						<th style="width: 120px; height: 120px; background-color: #F3CD97;">111</th>
+						<th style="width: 120px; height: 120px; background-color: #F3CD97;"></th>
 					</tr>
 				</table>
 			</div>
 		</th>
 
 		<!--show-->
-		<th>2222</th>
+		<th>
+			<div class="border">
+				<div id="americano_h_s" style="display: none;">25</div>
+			</div>
+		</th>
 	</tr>
 </table>
 
@@ -258,4 +263,10 @@
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 	}
+
+	$(document).ready(function() {
+ 							$("#americano_h").click(function() {
+   					 		$("#americano_h_s").show();
+  						});							
+					});
 </script>

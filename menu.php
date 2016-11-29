@@ -47,6 +47,7 @@
 	}
 	th {
 		border-style: solid;
+		font-size: 20px;
 	}
 </style>
 
@@ -68,31 +69,31 @@
 			<div id="coffee" class="tabcontent">							  	
 				<table>
 				  	<tr>
-				  		<th id="" style="width: 120px; height: 120px;">111</th>
-				  		<th style="width: 120px; height: 120px;">222</th>
-				  		<th style="width: 120px; height: 120px;">333</th>
-						<th style="width: 120px; height: 120px;">444</th>
-						<th style="width: 120px; height: 120px;">555</th>
-						<th style="width: 120px; height: 120px;">666</th>
-						<th style="width: 120px; height: 120px;">444</th>
+				  		<th id="" style="width: 120px; height: 120px; background-color: #E23053;">AMERICANO</th>
+				  		<th id="" style="width: 120px; height: 120px; background-color: #E23053;">222</th>
+				  		<th id="" style="width: 120px; height: 120px; background-color: #E23053">333</th>
+						<th id="" style="width: 120px; height: 120px; background-color: #E23053">444</th>
+						<th id="" style="width: 120px; height: 120px; background-color: #E23053">555</th>
+						<th id="" style="width: 120px; height: 120px; background-color: #E23053">666</th>
+						<th id="" style="width: 120px; height: 120px; background-color: #E23053">444</th>
 			  		</tr>
 			  		<tr>
-				  		<th style="width: 120px; height: 120px;">111</th>
-				  		<th style="width: 120px; height: 120px;">222</th>
-				  		<th style="width: 120px; height: 120px;">333</th>
-						<th style="width: 120px; height: 120px;">444</th>
-						<th style="width: 120px; height: 120px;">555</th>
-						<th style="width: 120px; height: 120px;">666</th>
-						<th style="width: 120px; height: 120px;">444</th>
+				  		<th id="" style="width: 120px; height: 120px; background-color: #5AD5EE;">111</th>
+				  		<th id="" style="width: 120px; height: 120px;">222</th>
+				  		<th id="" style="width: 120px; height: 120px;">333</th>
+						<th id="" style="width: 120px; height: 120px;">444</th>
+						<th id="" style="width: 120px; height: 120px;">555</th>
+						<th id="" style="width: 120px; height: 120px;">666</th>
+						<th id="" style="width: 120px; height: 120px;">444</th>
 			  		</tr>			  	
 			  		<tr>
-				  		<th style="width: 120px; height: 120px;">111</th>
-				  		<th style="width: 120px; height: 120px;">222</th>
-				  		<th style="width: 120px; height: 120px;">333</th>
-						<th style="width: 120px; height: 120px;">444</th>
-						<th style="width: 120px; height: 120px;">555</th>
-						<th style="width: 120px; height: 120px;">666</th>
-						<th style="width: 120px; height: 120px;">444</th>
+				  		<th id="" style="width: 120px; height: 120px;">111</th>
+				  		<th id="" style="width: 120px; height: 120px; background-color: #D8EE5A;">222</th>
+				  		<th id="" style="width: 120px; height: 120px;">333</th>
+						<th id="" style="width: 120px; height: 120px;">444</th>
+						<th id="" style="width: 120px; height: 120px;">555</th>
+						<th id="" style="width: 120px; height: 120px;">666</th>
+						<th id="" style="width: 120px; height: 120px;">444</th>
 			  		</tr>
 			  		<tr>
 			  			<th style="width: 120px; height: 120px;">444</th>	
@@ -104,7 +105,7 @@
 			<div id="tea" class="tabcontent">
 				<table>
 					<tr>
-						<th style="width: 120px; height: 120px;">111</th>
+						<th style="width: 120px; height: 120px; background-color: #E23053">111</th>
 				  		<th style="width: 120px; height: 120px;">222</th>
 				  		<th style="width: 120px; height: 120px;">333</th>
 						<th style="width: 120px; height: 120px;">444</th>
@@ -126,14 +127,17 @@
 				  		<th style="width: 120px; height: 120px;">222</th>
 				  		<th style="width: 120px; height: 120px;">333</th>
 						<th style="width: 120px; height: 120px;">444</th>
-						<th style="width: 120px; height: 120px;">555</th>
+						<th style="width: 120px; height: 120px; background-color: #5AD5EE;">555</th>
 						<th style="width: 120px; height: 120px;">666</th>
 						<th style="width: 120px; height: 120px;">444</th>	
 					</tr>
 					<tr>
 						<th style="width: 120px; height: 120px;">111</th>
 				  		<th style="width: 120px; height: 120px;">222</th>
-				  		<th style="width: 120px; height: 120px;">333</th>												
+				  		<th style="width: 120px; height: 120px; background-color: #D8EE5A;">333</th>
+				  		<th style="width: 120px; height: 120px;">333</th>
+				  		<th style="width: 120px; height: 120px;">333</th>
+				  		<th style="width: 120px; height: 120px;">333</th>				  													
 					</tr>					
 				</table>
 			</div>
@@ -142,7 +146,7 @@
 			<div id="yogurt" class="tabcontent">
 				<table>
 					<tr>
-						<th style="width: 120px; height: 120px;">111</th>
+						<th style="width: 120px; height: 120px; background-color: #D8EE5A;">111</th>
 				  		<th style="width: 120px; height: 120px;">222</th>
 				  		<th style="width: 120px; height: 120px;">333</th>
 						<th style="width: 120px; height: 120px;">444</th>
@@ -158,7 +162,7 @@
 			<div id="fruity" class="tabcontent">
 				<table>
 					<tr>
-						<th style="width: 120px; height: 120px;">111</th>
+						<th style="width: 120px; height: 120px; background-color: #D8EE5A;">111</th>
 				  		<th style="width: 120px; height: 120px;">222</th>
 				  		<th style="width: 120px; height: 120px;">333</th>
 						<th style="width: 120px; height: 120px;">444</th>
@@ -172,11 +176,11 @@
 			<div id="other" class="tabcontent">
 				<table>
 					<tr>
-						<th style="width: 120px; height: 120px;">111</th>
+						<th style="width: 120px; height: 120px; background-color: #E23053">111</th>
 				  		<th style="width: 120px; height: 120px;">222</th>
 				  		<th style="width: 120px; height: 120px;">333</th>
 						<th style="width: 120px; height: 120px;">444</th>
-						<th style="width: 120px; height: 120px;">555</th>
+						<th style="width: 120px; height: 120px; background-color: #5AD5EE;">555</th>
 						<th style="width: 120px; height: 120px;">666</th>
 						<th style="width: 120px; height: 120px;">444</th>	
 					</tr>
@@ -201,7 +205,7 @@
 					<tr>
 						<th style="width: 120px; height: 120px;">111</th>
 				  		<th style="width: 120px; height: 120px;">222</th>
-				  		<th style="width: 120px; height: 120px;">333</th>
+				  		<th style="width: 120px; height: 120px;  background-color: #D8EE5A;">333</th>
 						<th style="width: 120px; height: 120px;">444</th>
 						<th style="width: 120px; height: 120px;">555</th>
 						<th style="width: 120px; height: 120px;">666</th>
@@ -219,7 +223,7 @@
 			<div id="snack" class="tabcontent">
 				<table>
 					<tr>
-						<th style="width: 120px; height: 120px;">111</th>
+						<th style="width: 120px; height: 120px; background-color: #F3CD97;">111</th>
 					</tr>
 				</table>
 			</div>

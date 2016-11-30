@@ -67,6 +67,13 @@
 		text-decoration: none;
 		color: #FFFFFF;
 	}
+	.add_op {
+		display: inline-block;
+		padding: 26px 25px;
+		background-color: #83898E;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
 
 </style>
 
@@ -96,7 +103,7 @@
 
 		<!--left-side-->
 		<div class="left_side" style="background-color: #7C7D7E; width: 650px; height: 560px;">
-
+		<form name="=calculator">
 			<!--coffee-->
 			<div id="coffee" class="tabcontent" style="border: none;">
 				<table>
@@ -262,11 +269,23 @@
 					</tr>
 				</table>
 			</div>
-
+		</form>
 		</div>
 
 		<!--right-side-->
 		<div class="right_side" style="background-color: #C4C5C6; width: 650px; height: 560px; float: right; margin-top: -560px;">
+
+			<!--add-->
+			<div class="add_bar" style="background-color: none; width: 650px; height: 70px; float: right;">
+				<div class="add_op">222</div>
+				<div class="add_op">222</div>
+				<div class="add_op">222</div>
+				<div class="add_op">222</div>
+				<div class="add_op">222</div>
+				<div class="add_op">222</div>
+				<div class="add_op">222</div>
+				<div class="add_op">222</div>
+			</div>
 			
 		</div>
 

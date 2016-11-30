@@ -95,25 +95,34 @@
 		</div><b>
 	</div>
 
-	<div class="detail">
-		<div id="coffee" class="tabcontent"></div>
+	<div class="detail_zone" style="width: 1300px; height: 560px;">
+		<div class="left_side" style="border-style: dashed; border-color: #000000; width: 650px; height: 560px;">			
+			<div class="detail">
+				<div id="coffee" class="tabcontent" style="border: none;"></div>
 
-		<div id="tea" class="tabcontent">
-		  <h3>Paris</h3>
-		  <p>Paris is the capital of France.</p> 
+				<div id="tea" class="tabcontent" style="border: none;">
+				  <h3>Paris</h3>
+				  <p>Paris is the capital of France.</p> 
+				</div>
+
+				<div id="yogurt" class="tabcontent" style="border: none;">
+				  <h3>Tokyo</h3>
+				  <p>Tokyo is the capital of Japan.</p>
+				</div>
+
+				<div id="fruity" class="tabcontent" style="border: none;"></div>
+
+				<div id="other" class="tabcontent" style="border: none;"></div>
+
+				<div id="snack" class="tabcontent" style="border: none;"></div>
+			</div>
 		</div>
 
-		<div id="yogurt" class="tabcontent">
-		  <h3>Tokyo</h3>
-		  <p>Tokyo is the capital of Japan.</p>
+		<div class="right_side" style="border-style: dashed; border-color: #000000; width: 642px; height: 560px; float: right; margin-top: -568px;">
+			
 		</div>
-
-		<div id="fruity" class="tabcontent"></div>
-
-		<div id="other" class="tabcontent"></div>
-
-		<div id="snack" class="tabcontent"></div>
 	</div>
+
 </div>
 
 </body>

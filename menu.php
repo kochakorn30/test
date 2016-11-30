@@ -73,6 +73,14 @@
 		background-color: #83898E;
 		text-decoration: none;
 		color: #FFFFFF;
+		margin-top: 5px;
+	}
+
+	.btn_area {
+		padding: 26px 25px;
+		background-color: #52565A;
+		text-decoration: none;
+		color: #FFFFFF;
 	}
 
 </style>
@@ -141,42 +149,40 @@
 			<div id="tea" class="tabcontent" style="border: none;">
 				<table>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">THAI</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">THAI LEMON</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">MILK</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">LIPTON</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">LIPTON LEMON</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">LIPTON MILK</th>
 					</tr>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">GREENTEA (NO MILK)</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">GREENTEA (MILK)</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">GREENTEA (LEAVE)</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">GREENTEA (RICE)</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">BLACK CURRENT</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">CHAMOMILE</th>
 					</tr>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">JEWLING</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">EARL GREY</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">ENGLISH BREAKFAST</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">STRAWBERRY</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">BLACK TEA</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">THAI LEMON</th>
 					</tr>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">THAI MILK</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">GREENTEA (NO MILK)</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">GREENTEA (MILK)</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">GREENTEA LATTE</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">BLACK TEA</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">THAI LEMON</th>
 					</tr>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-					</tr>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MILK</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">GREENTEA LATTE</th>
 				</table>
 			</div>
 
@@ -184,16 +190,16 @@
 			<div id="yogurt" class="tabcontent" style="border: none;">
 				<table>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MIX BERRY</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">PASSION</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">KIWI</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MANGO</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">PEACH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">STRAWBERRY</th>
 					</tr>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>						
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">ORANGE</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">YOGURT</th>						
 					</tr>
 				</table>
 			</div>
@@ -202,15 +208,15 @@
 			<div id="fruity" class="tabcontent" style="border: none;">
 				<table>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MIX BERRY</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">PASSION</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">KIWI</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MANGO</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">PEACH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">STRAWBERRY</th>
 					</tr>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>							
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">ORANGE</th>							
 					</tr>
 				</table>
 			</div>
@@ -219,41 +225,41 @@
 			<div id="other" class="tabcontent" style="border: none;">
 					<table>
 						<tr>
-							<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #F18D8D;">HONEY LEMON</th>
+							<th style="width: 100px; height: 100px; background-color: #F18D8D;">LEMON</th>
+							<th style="width: 100px; height: 100px; background-color: #F18D8D;">MILK</th>
+							<th style="width: 100px; height: 100px; background-color: #F18D8D;">CHOCOLATE</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HONEY LEMON</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">LEMON</th>
 						</tr>
 						<tr>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">MILK</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">COCOA</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">MIX BERRY SODA</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">RED LEMON SODA</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">RED MILK</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">GREEN LEMON SODA</th>
 						</tr>
 						<tr>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">GREEN MILK</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">STRABERRY SODA</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">WATERMELON SODA</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">APPLE SODA</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">BLUE HAWAII SODA</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">ORANGE SODA</th>
 						</tr>
 						<tr>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HONEY LEMON</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">LEMON</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MILK</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">COCOA</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MIX BERRY</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">RED LEMON SODA</th>
 						</tr>
 						<tr>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>							
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">RED MILK</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">GREEN LEMON SODA</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">GREEN MILK</th>							
 						</tr>
 					</table>
 				</div>
@@ -262,10 +268,10 @@
 			<div id="snack" class="tabcontent" style="border: none;">
 				<table>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>							
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">BROWNIE</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HAM SANDWICH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">EGG SANDWICH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">CHICKEN SANDWICH</th>							
 					</tr>
 				</table>
 			</div>
@@ -276,15 +282,48 @@
 		<div class="right_side" style="background-color: #C4C5C6; width: 650px; height: 560px; float: right; margin-top: -560px;">
 
 			<!--add-->
-			<div class="add_bar" style="background-color: none; width: 650px; height: 70px; float: right;">
-				<div class="add_op">222</div>
-				<div class="add_op">222</div>
-				<div class="add_op">222</div>
-				<div class="add_op">222</div>
-				<div class="add_op">222</div>
-				<div class="add_op">222</div>
-				<div class="add_op">222</div>
-				<div class="add_op">222</div>
+			<center>
+			<div class="add_bar" style="background-color: none; width: 650px; height: 70px; float: right; margin-top: 5px;">
+				<table>
+					<tr>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ WHIP</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ CHOC CHIP</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ KIT KAT</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ OREO</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ CINNA POWDER</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ COCOA POWDER</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ STRAW</b></th>
+					</tr>
+					<tr>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ CHOC SYR</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ STRA SYR</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ CARA SYR</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ VANIL SYR</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ MILK SYR</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ GREE SYR</b></th>
+						<th style="width: 80px; height: 70px; background-color: #6B6E71;"><b>+ MINT SYR</b></th>
+					</tr>
+				</table>
+			</div>
+			</center>
+
+			<!--textarea-->
+			<center>
+				<input type="text" name="order" style="width: 600px; height: 55px; margin-top: 150px; font-size: 35px;">
+			</center>
+
+			<!--button-->
+			<div class="btn" style="margin-top: 100px;">
+				<center>
+				<table>
+					<tr>
+						<th class="btn_area">ADD</th>
+						<th class="btn_area">DELETE</th>
+						<th class="btn_area">CLEAR</th>
+						<th class="btn_area">ORDER</th>
+					</tr>
+				</table>
+				</center>
 			</div>
 			
 		</div>

@@ -5,7 +5,7 @@
 </head>
 
 <style>
-	
+
 	.exit {
 		background-color: #46464D;
 	    border: none;
@@ -72,58 +72,205 @@
 
 <body style="background-color: #000000; color: #FFFFFF; font-family: arial;">
 
-<div class="container" style="background-color: #2E2E2F; width: 1300px; height: 700px; margin-top: 15px; margin-left: 15px;">	
-	<div class="title_bar" style="background-color: #85858E; width: 1300px; height: 70px;">
-		<div class="name" style="font-size: 30px; padding-top: 20px;">
-			<center><b>BASE COFFEE</b></center>
+	<div class="container" style="background-color: #FFFFFF; width: 1300px; height: 700px; margin-top: 15px; margin-left: 15px;">
+
+		<!--title-->
+		<div class="title_bar" style="background-color: #85858E; width: 1300px; height: 70px;">
+			<div class="name" style="font-size: 30px; padding-top: 20px;">
+				<center><b>BASE COFFEE</b></center>
+			</div>
+			<a href="file:///C:/xampp/htdocs/test/test/main.php"><div class="exit"><b>EXIT</b></div></a>
 		</div>
-		<a href="file:///C:/xampp/htdocs/test/test/main.php">
-		<div class="exit">
-			<b>EXIT</b>
-		</div>
-		</a>
-	</div>
 
-	<div class="menu_bar" style="background-color: #A1A1AD; width: 1300px; height: 70px;">
-		<div class="tab">
-			<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'coffee')"><div class="menu"><b>COFFEE</b></div></a>
-			<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'tea')"><div class="menu"><b>TEA</b></div></a>
-			<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'yogurt')"><div class="menu"><b>YOGURT</b></div></a>
-			<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'fruity')"><div class="menu"><b>FRUITY</b></div></a>
-			<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'other')"><div class="menu"><b>OTHER</b></div></a>
-			<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'snack')"><div class="menu"><b>SNACK</b></div></a>
-		</div><b>
-	</div>
-
-	<div class="detail_zone" style="width: 1300px; height: 560px;">
-		<div class="left_side" style="border-style: dashed; border-color: #000000; width: 650px; height: 560px;">			
-			<div class="detail">
-				<div id="coffee" class="tabcontent" style="border: none;"></div>
-
-				<div id="tea" class="tabcontent" style="border: none;">
-				  <h3>Paris</h3>
-				  <p>Paris is the capital of France.</p> 
-				</div>
-
-				<div id="yogurt" class="tabcontent" style="border: none;">
-				  <h3>Tokyo</h3>
-				  <p>Tokyo is the capital of Japan.</p>
-				</div>
-
-				<div id="fruity" class="tabcontent" style="border: none;"></div>
-
-				<div id="other" class="tabcontent" style="border: none;"></div>
-
-				<div id="snack" class="tabcontent" style="border: none;"></div>
+		<!--menubar-->
+		<div class="menu_bar" style="background-color: #A1A1AD; width: 1300px; height: 70px;">
+			<div class="tab">
+				<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'coffee')"><div class="menu"><b>COFFEE</b></div></a>
+				<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'tea')"><div class="menu"><b>TEA</b></div></a>
+				<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'yogurt')"><div class="menu"><b>YOGURT</b></div></a>
+				<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'fruity')"><div class="menu"><b>FRUITY</b></div></a>
+				<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'other')"><div class="menu"><b>OTHER</b></div></a>
+				<a href="javascript:void(0)" class="tablinks" onclick="openCity(event, 'snack')"><div class="menu"><b>SNACK</b></div></a>
 			</div>
 		</div>
 
-		<div class="right_side" style="border-style: dashed; border-color: #000000; width: 642px; height: 560px; float: right; margin-top: -568px;">
+		<!--left-side-->
+		<div class="left_side" style="background-color: #7C7D7E; width: 650px; height: 560px;">
+
+			<!--coffee-->
+			<div id="coffee" class="tabcontent" style="border: none;">
+				<table>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+					</tr>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+					</tr>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+					</tr>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>							
+					</tr>	
+				</table>
+			</div>
+
+			<!--tea-->
+			<div id="tea" class="tabcontent" style="border: none;">
+				<table>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+					</tr>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+					</tr>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+					</tr>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+					</tr>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+					</tr>
+				</table>
+			</div>
+
+			<!--yogurt-->
+			<div id="yogurt" class="tabcontent" style="border: none;">
+				<table>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+					</tr>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>						
+					</tr>
+				</table>
+			</div>
+
+			<!--fruity-->
+			<div id="fruity" class="tabcontent" style="border: none;">
+				<table>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+					</tr>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>							
+					</tr>
+				</table>
+			</div>
+
+			<!--other-->
+			<div id="other" class="tabcontent" style="border: none;">
+					<table>
+						<tr>
+							<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						</tr>
+						<tr>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						</tr>
+						<tr>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						</tr>
+						<tr>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						</tr>
+						<tr>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>							
+						</tr>
+					</table>
+				</div>
+
+			<!--snack-->
+			<div id="snack" class="tabcontent" style="border: none;">
+				<table>
+					<tr>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>							
+					</tr>
+				</table>
+			</div>
+
+		</div>
+
+		<!--right-side-->
+		<div class="right_side" style="background-color: #C4C5C6; width: 650px; height: 560px; float: right; margin-top: -560px;">
 			
 		</div>
-	</div>
 
-</div>
+	</div>
 
 </body>
 </html>

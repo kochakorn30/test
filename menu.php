@@ -77,7 +77,7 @@
 	}
 
 	.btn_area {
-		padding: 26px 25px;
+		padding: 30px 35px;
 		background-color: #52565A;
 		text-decoration: none;
 		color: #FFFFFF;
@@ -111,36 +111,38 @@
 
 		<!--left-side-->
 		<div class="left_side" style="background-color: #7C7D7E; width: 650px; height: 560px;">
-		<form name="=calculator">
+	
 			<!--coffee-->
 			<div id="coffee" class="tabcontent" style="border: none;">
 				<table>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">HHH</th>
+						<th>
+							<input type="button" value="AMERICANO" onClick="document.calculator.ans.value+='25'" style="width: 100px; height: 100px; background-color: #F18D8D; color: #FFFFFF;">
+						</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">DOUBLE AMERICANO</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">CAPPUCCINO</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">LATTE</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">MOCHA</th>
+						<th style="width: 100px; height: 100px; background-color: #F18D8D;">CARAMEL MACCHIATO</th>
 					</tr>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">AMERICANO</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">ESPRESSO</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">LATTE</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">CAPPUCCINO</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">MOCHA</th>
+						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">CARAMEL MACCHIATO</th>
 					</tr>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">ESPRESSO</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">LATTE</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">CAPPUCCINO</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MOCHA</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">CARAMEL MACCHIATO</th>
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">DARK CHOC MOCHA</th>
 					</tr>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HHH</th>							
+						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">COFFEE COOKIE CHOCCHIP</th>							
 					</tr>	
 				</table>
 			</div>
@@ -268,14 +270,23 @@
 			<div id="snack" class="tabcontent" style="border: none;">
 				<table>
 					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">BROWNIE</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HAM SANDWICH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">EGG SANDWICH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">CHICKEN SANDWICH</th>							
+						<form name="calculator">
+							
+								<button></button><th value="BROWNIE" onClick="document.calculator.ans.value+='1'" style="width: 100px; height: 100px; background-color: #A6A6A9;">BROWNIE</a>
+							</th></button>
+							<th>
+								<input type="button" value="HAM SANDWICH" onClick="document.calculator.ans.value+='1'" style="width: 100px; height: 100px; background-color: #A6A6A9;">
+							</th>
+							<th>
+								<input type="button" value="EGG SANDWICH" onClick="document.calculator.ans.value+='1'" style="width: 100px; height: 100px; background-color: #A6A6A9;">
+							</th>
+							<th>
+								<input type="button" value="CHICKEN SANDWICH" onClick="document.calculator.ans.value+='1'" style="width: 100px; height: 100px; background-color: #A6A6A9;">
+							</th>
+						</form>							
 					</tr>
 				</table>
 			</div>
-		</form>
 		</div>
 
 		<!--right-side-->
@@ -309,7 +320,7 @@
 
 			<!--textarea-->
 			<center>
-				<input type="text" name="order" style="width: 600px; height: 55px; margin-top: 150px; font-size: 35px;">
+				<input type="textfield" name="ans" val="" style="width: 600px; height: 55px; margin-top: 150px; font-size: 35px;">
 			</center>
 
 			<!--button-->
@@ -317,10 +328,10 @@
 				<center>
 				<table>
 					<tr>
-						<th class="btn_area">ADD</th>
-						<th class="btn_area">DELETE</th>
+						<th><input class="btn_area" type="button" value="ADD" onClick="document.calculator.ans.value+='+'"></th>
+						<th><input class="btn_area" type="button" value="DELETE" onClick="document.calculator.ans.value+='-'"></th>
 						<th class="btn_area">CLEAR</th>
-						<th class="btn_area">ORDER</th>
+						<th><input class="btn_area" type="button" value="ORDER" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"></th>
 					</tr>
 				</table>
 				</center>

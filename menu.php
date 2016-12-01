@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	 <script type="text/javascript" src="calculator.js"></script> 
 	<title>BASE COFFEE</title>
 </head>
 
@@ -109,185 +110,35 @@
 			</div>
 		</div>
 
+		<form class="calcForm" name="calculator">
+
 		<!--left-side-->
-		<div class="left_side" style="background-color: #7C7D7E; width: 650px; height: 560px;">
-	
-			<!--coffee-->
-			<div id="coffee" class="tabcontent" style="border: none;">
-				<table>
-					<tr>
-						<th>
-							<input type="button" value="AMERICANO" onClick="document.calculator.ans.value+='25'" style="width: 100px; height: 100px; background-color: #F18D8D; color: #FFFFFF;">
-						</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">DOUBLE AMERICANO</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">CAPPUCCINO</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">LATTE</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">MOCHA</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">CARAMEL MACCHIATO</th>
-					</tr>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">AMERICANO</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">ESPRESSO</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">LATTE</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">CAPPUCCINO</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">MOCHA</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">CARAMEL MACCHIATO</th>
-					</tr>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">ESPRESSO</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">LATTE</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">CAPPUCCINO</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MOCHA</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">CARAMEL MACCHIATO</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">DARK CHOC MOCHA</th>
-					</tr>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">COFFEE COOKIE CHOCCHIP</th>							
-					</tr>	
-				</table>
-			</div>
+		<div class="left_side" style="background-color: #7C7D7E; width: 650px; height: 560px;">				
+            
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="7" onclick="numInput('7')" />
+                <input type="button" class="calcButton" value="8" onclick="numInput('8')" />
+                <input type="button" class="calcButton" value="9" onclick="numInput('9')" />
+                
+            </div>
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="4" onclick="numInput('4')" />
+                <input type="button" class="calcButton" value="5" onclick="numInput('5')" />
+                <input type="button" class="calcButton" value="6" onclick="numInput('6')" />
+                
+            </div>
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="1" onclick="numInput('1')" />
+                <input type="button" class="calcButton" value="2" onclick="numInput('2')" />
+                <input type="button" class="calcButton" value="3" onclick="numInput('3')" />
+                <input type="button" class="calcButton" value="x" onclick="setOperation('multiply')" />
+            </div>
+            <div class="calcRow">
+                <input type="button" class="calcButton" value="0" onclick="numInput('0')" />
+            </div>
+      
 
-			<!--tea-->
-			<div id="tea" class="tabcontent" style="border: none;">
-				<table>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">THAI</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">THAI LEMON</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">MILK</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">LIPTON</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">LIPTON LEMON</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">LIPTON MILK</th>
-					</tr>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">GREENTEA (NO MILK)</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">GREENTEA (MILK)</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">GREENTEA (LEAVE)</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">GREENTEA (RICE)</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">BLACK CURRENT</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">CHAMOMILE</th>
-					</tr>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">JEWLING</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">EARL GREY</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">ENGLISH BREAKFAST</th>
-						<th style="width: 100px; height: 100px; background-color: #F18D8D;">STRAWBERRY</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">BLACK TEA</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">THAI LEMON</th>
-					</tr>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">THAI MILK</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">GREENTEA (NO MILK)</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">GREENTEA (MILK)</th>
-						<th style="width: 100px; height: 100px; background-color: #8ED6F0;">GREENTEA LATTE</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">BLACK TEA</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">THAI LEMON</th>
-					</tr>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MILK</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">GREENTEA LATTE</th>
-				</table>
-			</div>
-
-			<!--yogurt-->
-			<div id="yogurt" class="tabcontent" style="border: none;">
-				<table>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MIX BERRY</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">PASSION</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">KIWI</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MANGO</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">PEACH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">STRAWBERRY</th>
-					</tr>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">ORANGE</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">YOGURT</th>						
-					</tr>
-				</table>
-			</div>
-
-			<!--fruity-->
-			<div id="fruity" class="tabcontent" style="border: none;">
-				<table>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MIX BERRY</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">PASSION</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">KIWI</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MANGO</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">PEACH</th>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">STRAWBERRY</th>
-					</tr>
-					<tr>
-						<th style="width: 100px; height: 100px; background-color: #A6A6A9;">ORANGE</th>							
-					</tr>
-				</table>
-			</div>
-
-			<!--other-->
-			<div id="other" class="tabcontent" style="border: none;">
-					<table>
-						<tr>
-							<th style="width: 100px; height: 100px; background-color: #F18D8D;">HONEY LEMON</th>
-							<th style="width: 100px; height: 100px; background-color: #F18D8D;">LEMON</th>
-							<th style="width: 100px; height: 100px; background-color: #F18D8D;">MILK</th>
-							<th style="width: 100px; height: 100px; background-color: #F18D8D;">CHOCOLATE</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">HONEY LEMON</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">LEMON</th>
-						</tr>
-						<tr>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">MILK</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">COCOA</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">MIX BERRY SODA</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">RED LEMON SODA</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">RED MILK</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">GREEN LEMON SODA</th>
-						</tr>
-						<tr>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">GREEN MILK</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">STRABERRY SODA</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">WATERMELON SODA</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">APPLE SODA</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">BLUE HAWAII SODA</th>
-							<th style="width: 100px; height: 100px; background-color: #8ED6F0;">ORANGE SODA</th>
-						</tr>
-						<tr>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">HONEY LEMON</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">LEMON</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MILK</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">COCOA</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">MIX BERRY</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">RED LEMON SODA</th>
-						</tr>
-						<tr>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">RED MILK</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">GREEN LEMON SODA</th>
-							<th style="width: 100px; height: 100px; background-color: #A6A6A9;">GREEN MILK</th>							
-						</tr>
-					</table>
-				</div>
-
-			<!--snack-->
-			<div id="snack" class="tabcontent" style="border: none;">
-				<table>
-					<tr>
-						<form name="calculator">
-							
-								<button></button><th value="BROWNIE" onClick="document.calculator.ans.value+='1'" style="width: 100px; height: 100px; background-color: #A6A6A9;">BROWNIE</a>
-							</th></button>
-							<th>
-								<input type="button" value="HAM SANDWICH" onClick="document.calculator.ans.value+='1'" style="width: 100px; height: 100px; background-color: #A6A6A9;">
-							</th>
-							<th>
-								<input type="button" value="EGG SANDWICH" onClick="document.calculator.ans.value+='1'" style="width: 100px; height: 100px; background-color: #A6A6A9;">
-							</th>
-							<th>
-								<input type="button" value="CHICKEN SANDWICH" onClick="document.calculator.ans.value+='1'" style="width: 100px; height: 100px; background-color: #A6A6A9;">
-							</th>
-						</form>							
-					</tr>
-				</table>
-			</div>
-		</div>
+		</div><!--left-side-->
 
 		<!--right-side-->
 		<div class="right_side" style="background-color: #C4C5C6; width: 650px; height: 560px; float: right; margin-top: -560px;">
@@ -320,7 +171,7 @@
 
 			<!--textarea-->
 			<center>
-				<input type="textfield" name="ans" val="" style="width: 600px; height: 55px; margin-top: 150px; font-size: 35px;">
+				<input type="text" class="calcDisplay" id="display" style="width: 600px; height: 55px; margin-top: 150px; font-size: 35px;" />
 			</center>
 
 			<!--button-->
@@ -328,18 +179,19 @@
 				<center>
 				<table>
 					<tr>
-						<th><input class="btn_area" type="button" value="ADD" onClick="document.calculator.ans.value+='+'"></th>
-						<th><input class="btn_area" type="button" value="DELETE" onClick="document.calculator.ans.value+='-'"></th>
-						<th class="btn_area">CLEAR</th>
-						<th><input class="btn_area" type="button" value="ORDER" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"></th>
+						<th><input type="button" class="calcButton" value="ADD" onclick="setOperation('add')" style="padding: 30px 35px; background-color: #52565A; text-decoration: none; color: #FFFFFF;" /></th>
+						<th><input type="button" class="calcButton" value="DELETE" onclick="setOperation('subtract')" style="padding: 30px 35px; background-color: #52565A; text-decoration: none; color: #FFFFFF;" /></th>
+						<th><input type="button" class="calcButton" value="CLEAR" onclick="clearDisplay()" style="padding: 30px 35px; background-color: #52565A; text-decoration: none; color: #FFFFFF;" /></th>
+						<th> <input type="button" class="calcButton" value="ORDER" onclick="calculate()" style="padding: 30px 35px; background-color: #52565A; text-decoration: none; color: #FFFFFF;" /></th>
 					</tr>
 				</table>
 				</center>
 			</div>
+		</div>
 			
 		</div>
 
-	</div>
+	</div><!--right-side-->
 
 </body>
 </html>
@@ -365,6 +217,136 @@
     // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
+	}
+
+	//calculate
+	displayNum = "";
+    storedNum = "";
+    operation = 0;
+    queuedOperation = 0;
+    calculationFinished = false;
+
+	function clearDisplay() {
+	    // Select the calculator's display
+	    var display = document.getElementById("display");
+
+	    // Clear the global variables and the display
+	    displayNum = "";
+	    storedNum = "";
+	    operation = 0;
+	    queuedOperation = 0;        
+	    display.value = displayNum;
+
+	}
+
+	function numInput(num) {
+	    // Select the calculator's display
+	    var display = document.getElementById("display");
+
+	    // Check if the display is empty and the number being pressed is 0
+	    // This is to make sure the first number isn't 0 because then javascript thinks we are using OCTAL (Base eight)
+	    if ((display.value == "") && num == "0") {
+	    // If it is, do nothing
+	      return;
+	    }
+	    // Check if a calculation has finished
+	    // If it has replace the number in the display (the answer to the calculation with the number
+	    // that was just pressed and change calculation finished back to false 
+	    else if (calculationFinished == true) {
+	        display.value = num;
+	        calculationFinished = false;
+	    }
+	    // if neither of these is the case input the numbers as usual
+	    else {
+	      display.value += num;
+	    }
+	}
+
+	function insertDecimal(dec) {
+	    // Select the calculator's display
+	    var display = document.getElementById("display");
+
+	    // Loop through the current number to make sure there isn't already a decimal
+	    for (i = 0; i < display.value.length; i++)
+	        if (display.value.charAt(i) == '.') {
+	            // If there is, do nothing
+	            return;
+	        }
+	    // If there isn't add a decimal to the end of the displayed number
+	        display.value += dec;
+	}
+
+	function setOperation(command) {
+	    // Select the calculator's display
+	    var display = document.getElementById("display"),
+	            displayNum = display.value;
+	    // eval both the numbers to remove quotes
+	    // otherwise 4 + 5 will be "4" + "5" which in JS will equal 45
+	            evalDisplay = eval(displayNum),
+	            evalStored = eval(storedNum);
+
+	    // Check if there is a queued operation
+	    // If there is a queued operation calculate it
+	    // Then set the stored number to total of the calculation       
+	    if (queuedOperation == 0) {
+	        storedNum = display.value;
+	    }
+	    else if (queuedOperation == 1) {
+	        storedNum = evalStored + evalDisplay;
+	    }
+	    else if (queuedOperation == 2) {
+	        storedNum = evalStored - evalDisplay;
+	    }
+	    else if (queuedOperation == 3) {
+	        storedNum = evalStored * evalDisplay;
+	    }
+
+	    // Check what command was put into the calculator
+	    // Then set the operation to the correct number
+	    if (command == 'add') {
+	        operation = 1;
+	    }
+	    else if (command == 'subtract') {
+	        operation = 2;
+	    }
+	    if (command == 'multiply') {
+	        operation = 3;
+	    }
+
+	    // Queue up an operation for enterint multiple  commands without hitting equals
+	    // i.e. 10x4+8-9+3=
+	    queuedOperation = operation;
+	    // Clear the display in order to receive a new number
+	    display.value = '';
+	}
+
+	function calculate() {
+	    // Select the calculator's display
+	    var display = document.getElementById("display");
+	            displayNum = display.value;
+	    var evalDisplay = eval(displayNum),
+	            evalStored = eval(storedNum);
+
+	    // Do the math
+	    if (operation == 1) {
+	        displayNum = evalStored + evalDisplay;
+	    }
+	    else if (operation == 2) {
+	        displayNum = evalStored - evalDisplay;
+	    }
+	    else if (operation == 3) {
+	        displayNum = evalStored * evalDisplay;
+	    }
+	    // Change display to the answer
+	    display.value = displayNum;
+	    if (operation != 0)
+	        calculationFinished = true;
+	    // Clear all the global variables
+	    // Necessary in case the user wants to make a calculation using the answer
+	    operation = 0;
+	    queuedOperation = 0;
+	    displayNum = "";
+	    storedNum = "";
 	}
 
 </script>

@@ -120,7 +120,7 @@
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 16px;   
+	    font-size: 14px;   
 	    cursor: pointer;
 	    font-weight: bold;
 	}
@@ -134,7 +134,7 @@
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 16px;   
+	    font-size: 14px;   
 	    cursor: pointer;
 	    font-weight: bold;
 	}
@@ -148,7 +148,7 @@
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 16px;   
+	    font-size: 14px;   
 	    cursor: pointer;
 	    font-weight: bold;
 	}
@@ -229,26 +229,26 @@
 						<th><input type="button" class="hot" value="LIPTON MILK" onclick="numInput('30')"/></th>						
 					</tr>
 					<tr>
-						<th><input type="button" class="hot" value="GREENTEA (NO MILK)" onclick="numInput('35')"/></th>
-						<th><input type="button" class="hot" value="GREENTEA (MILK)" onclick="numInput('40')"/></th>
-						<th><input type="button" class="hot" value="GREENTEA (LEAVE)" onclick="numInput('25')"/></th>
-						<th><input type="button" class="hot" value="GREENTEA (RICE)" onclick="numInput('25')"/></th>
+						<th><input type="button" class="hot" value="GREENT (NOMILK)" onclick="numInput('35')"/></th>
+						<th><input type="button" class="hot" value="GREENT (MILK)" onclick="numInput('40')"/></th>
+						<th><input type="button" class="hot" value="GREENT (LEAVE)" onclick="numInput('25')"/></th>
+						<th><input type="button" class="hot" value="GREENT (RICE)" onclick="numInput('25')"/></th>
 						<th><input type="button" class="hot" value="BLACK CURRENT" onclick="numInput('35')"/></th>
 						<th><input type="button" class="hot" value="CHAMOMILE" onclick="numInput('35')"/></th>						
 					</tr>
 					<tr>
 						<th><input type="button" class="hot" value="JEWLING" onclick="numInput('35')"/></th>
 						<th><input type="button" class="hot" value="EARL GREY" onclick="numInput('35)"/></th>
-						<th><input type="button" class="hot" value="ENGLISH BREAKFAST" onclick="numInput('35')"/></th>
+						<th><input type="button" class="hot" value="ENG BREAKFAST" onclick="numInput('35')"/></th>
 						<th><input type="button" class="hot" value="STRAWBERRY" onclick="numInput('35')"/></th>
 						<th><input type="button" class="ice" value="BLACK TEA" onclick="numInput('25')"/></th>		
 						<th><input type="button" class="ice" value="THAI LEMON" onclick="numInput('30')"/></th>								
 					</tr>
 					<tr>
 						<th><input type="button" class="ice" value="THAI MILK" onclick="numInput('30')"/></th>		
-						<th><input type="button" class="ice" value="GREENTEA (NO MILK)" onclick="numInput('40')"/></th>		
-						<th><input type="button" class="ice" value="GREENTEA (MILK)" onclick="numInput('45')"/></th>		
-						<th><input type="button" class="ice" value="GREENTEA LATTE" onclick="numInput('50')"/></th>
+						<th><input type="button" class="ice" value="GREENT (NOMILK)" onclick="numInput('40')"/></th>		
+						<th><input type="button" class="ice" value="GREENT (MILK)" onclick="numInput('45')"/></th>		
+						<th><input type="button" class="ice" value="GREENT LATTE" onclick="numInput('50')"/></th>
 						<th><input type="button" class="freppe" value="BLACK TEA" onclick="numInput('30')"/></th>
 						<th><input type="button" class="freppe" value="THAI LEMON" onclick="numInput('35')"/></th>								
 					</tr>
@@ -297,28 +297,28 @@
 			<div id="other" class="tabcontent" style="border: none;">
 					<table>
 						<tr>
-							<th><input type="button" class="hot" value="HONEY LEMON" onclick="numInput('30')"/></th>						
+							<th><input type="button" class="hot" value="HONEY LEMO" onclick="numInput('30')"/></th>						
 							<th><input type="button" class="hot" value="LEMON" onclick="numInput('30')"/></th>
 							<th><input type="button" class="hot" value="MILK" onclick="numInput('25')"/></th>
 							<th><input type="button" class="hot" value="CHOCOLATE" onclick="numInput('35')"/></th>
-							<th><input type="button" class="ice" value="HONEY LEMON" onclick="numInput('35')"/></th>
+							<th><input type="button" class="ice" value="HONEY LEMO" onclick="numInput('35')"/></th>
 							<th><input type="button" class="ice" value="LEMON" onclick="numInput('40')"/></th>									
 						</tr>
 						<tr>
 							<th><input type="button" class="ice" value="MILK" onclick="numInput('30')"/></th>
 							<th><input type="button" class="ice" value="COCOA" onclick="numInput('40')"/></th>
-							<th><input type="button" class="ice" value="MIX BERRY SODA" onclick="numInput('50')"/></th>
-							<th><input type="button" class="ice" value="RED LEMON SODA" onclick="numInput('30')"/></th>
+							<th><input type="button" class="ice" value="MIX BER SODA" onclick="numInput('50')"/></th>
+							<th><input type="button" class="ice" value="RED LEM SODA" onclick="numInput('30')"/></th>
 							<th><input type="button" class="ice" value="RED MILK" onclick="numInput('30')"/></th>
 							<th><input type="button" class="ice" value="GREEN LEMON SODA" onclick="numInput('30')"/></th>
 						</tr>
 						<tr>
 							<th><input type="button" class="ice" value="GREEN MILK" onclick="numInput('30')"/></th>
-							<th><input type="button" class="ice" value="STRAWBERRY SODA" onclick="numInput('45')"/></th>
-							<th><input type="button" class="ice" value="WATERMELON SODA" onclick="numInput('45')"/></th>
+							<th><input type="button" class="ice" value="STRAW SODA" onclick="numInput('45')"/></th>
+							<th><input type="button" class="ice" value="MELON SODA" onclick="numInput('45')"/></th>
 							<th><input type="button" class="ice" value="APPLE SODA" onclick="numInput('45')"/></th>
-							<th><input type="button" class="ice" value="BLUE HAWAII SODA" onclick="numInput('45')"/></th>
-							<th><input type="button" class="ice" value="ORANGE SODA" onclick="numInput('45')"/></th>							
+							<th><input type="button" class="ice" value="BUHAWAII SODA" onclick="numInput('45')"/></th>
+							<th><input type="button" class="ice" value="ORAN SODA" onclick="numInput('45')"/></th>							
 						</tr>
 						<tr>
 							<th><input type="button" class="freppe" value="HONEY LEMON" onclick="numInput('45')"/></th>

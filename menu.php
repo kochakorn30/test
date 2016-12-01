@@ -120,7 +120,7 @@
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 16px;   
+	    font-size: 14px;   
 	    cursor: pointer;
 	    font-weight: bold;
 	}
@@ -134,7 +134,7 @@
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 16px;   
+	    font-size: 14px;   
 	    cursor: pointer;
 	    font-weight: bold;
 	}
@@ -148,7 +148,7 @@
 	    text-align: center;
 	    text-decoration: none;
 	    display: inline-block;
-	    font-size: 16px;   
+	    font-size: 14px;   
 	    cursor: pointer;
 	    font-weight: bold;
 	}
@@ -300,7 +300,7 @@
 							<th><input type="button" class="hot" value="HONEY LEMON" onclick="numInput('30')"/></th>						
 							<th><input type="button" class="hot" value="LEMON" onclick="numInput('30')"/></th>
 							<th><input type="button" class="hot" value="MILK" onclick="numInput('25')"/></th>
-							<th><input type="button" class="hot" value="CHOCOLATE" onclick="numInput('35')"/></th>
+							<th><input type="button" class="hot" value="CHOCOL" onclick="numInput('35')"/></th>
 							<th><input type="button" class="ice" value="HONEY LEMON" onclick="numInput('35')"/></th>
 							<th><input type="button" class="ice" value="LEMON" onclick="numInput('40')"/></th>									
 						</tr>

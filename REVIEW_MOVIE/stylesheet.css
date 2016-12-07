@@ -1,9 +1,17 @@
 body {
+	background-color: #000000;
 	font-family: arial;
+	font-weight: bold;
 }
 
-.header {
-	height: 100px;
+.container {
+	background-color: #FFFFFF;
+	width: 1500px;
+	height: auto;
+}
+
+.menu {
+	background-color: #F2E8FF;
 }
 
 /*menu*/
@@ -12,22 +20,41 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #E2E2E2;
+    background-color: #DFC5FF;
 }
 
 li {
     float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
 }
 
 li a {
     display: block;
-    color: #000000;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #ECECEC;
+li a:hover:not(.active) {
+    background-color: #E7D4FF;
 }
 /*end menu*/
+
+.footer {
+	 background-color: #DFC5FF;
+}
+
+.login {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.regis {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}

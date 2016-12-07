@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>M | HOME</title>
+	<title>M | SETTING</title>
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
@@ -27,9 +27,7 @@
 		</div>
 	</div><!--header-->
 
-	<div class="main">
-		
-	</div><!--main-->
+	<div class="main"></div><!--main-->
 
 	<div class="footer">
 		<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Linea_M_(Logo_Metro_Medellin).png" style="width: 80px; height: 80px; margin-left: 30px; margin-top: 30px; margin-bottom: 30px;">

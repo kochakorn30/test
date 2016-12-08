@@ -30,14 +30,17 @@
 	<div class="main">
 		<center>
 		<div class="setting">
-			<form style="font-size: 20px; color: #AEAEAE;">
-				<fieldset style="width: 900px; border-radius: 10px; background-color: #F0F0F0;">
-					<legend>SETTING</legend>
+			<p style="font-size: 30px; color: #9A9A9A;">SETTING</p>
 
-				</fieldset>
-			</form>
+			<p><a href="#" class="term_btn">TERM OF SERVICE</a></p>
+			<br>
+			<p><a href="#" class="policy_btn">PRIVACY POLICY</a></p>
+			<br>
+			<p><a href="#" class="rule_btn">RULE</a></p>
 		</div><!--setting-->
 		</center>
+		<br>
+		<br>
 	</div><!--main-->
 
 	<div class="footer">

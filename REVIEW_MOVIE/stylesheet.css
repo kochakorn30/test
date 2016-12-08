@@ -123,3 +123,39 @@ li a:hover:not(.active) {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+.term_btn {
+    text-decoration: none; 
+    background-color: #B989E6; 
+    border: none; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 20px; 
+    border-radius: 5px; 
+    text-align: center;
+    padding: 14px 138px;
+}
+
+.policy_btn {
+    text-decoration: none; 
+    background-color: #B989E6; 
+    border: none; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 20px; 
+    border-radius: 5px; 
+    text-align: center;
+    padding: 14px 145px;
+}
+
+.rule_btn {
+    text-decoration: none; 
+    background-color: #B989E6; 
+    border: none; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 20px; 
+    border-radius: 5px; 
+    text-align: center;
+    padding: 14px 200px;
+}

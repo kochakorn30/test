@@ -27,7 +27,31 @@
 		</div>
 	</div><!--header-->
 
-	<div class="main"></div><!--main-->
+	<div class="main">
+		<br>
+		<center>
+		<form style="font-size: 20px; color: #AEAEAE;">
+			<fieldset style="width: 900px; border-radius: 10px; background-color: #F0F0F0;">
+				<legend>CONTACT US</legend>
+					<table>
+						<tr>
+							<td>TOPIC</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td>
+							<select>
+								<option>...CHOOSE...</option>
+								<option></option>
+							</select>
+							</td>
+						</tr>
+					</table>
+			</fieldset>
+			</form>
+		</center>
+		<br>
+	</div><!--main-->
 
 	<div class="footer">
 		<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Linea_M_(Logo_Metro_Medellin).png" style="width: 80px; height: 80px; margin-left: 30px; margin-top: 30px; margin-bottom: 30px;">

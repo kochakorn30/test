@@ -58,3 +58,68 @@ li a:hover:not(.active) {
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+
+.login_btn {
+    text-decoration: none; 
+    background-color: #CEB0FF;
+    border: none; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 20px; 
+    border-radius: 5px; 
+    text-align: center;
+    padding: 14px 115px;
+}
+
+.facebook_btn {
+    text-decoration: none; 
+    background-color: #89ACED;
+    border: none; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 20px; 
+    border-radius: 5px; 
+    text-align: center;
+    padding: 14px 95px;
+}
+
+.gmail_btn{
+    text-decoration: none; 
+    background-color: #FF7272; 
+    border: none; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 20px; 
+    border-radius: 5px; 
+    text-align: center;
+    padding: 14px 120px;
+}
+
+.register_btn {
+    text-decoration: none; 
+    background-color: #B989E6; 
+    border: none; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 20px; 
+    border-radius: 5px; 
+    text-align: center;
+    padding: 14px 102px;
+}
+
+.regis_submit_btn {
+    text-decoration: none; 
+    background-color: #B989E6; 
+    border: none; 
+    color: #FFFFFF; 
+    cursor: pointer;
+    font-size: 20px; 
+    border-radius: 5px; 
+    text-align: center;
+    padding: 14px 102px;
+}
+
+.setting {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

@@ -6,58 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
-<style>
-
-.login_btn {
-	text-decoration: none; 
-	background-color: #CEB0FF;
-	border: none; 
-	color: #FFFFFF; 
-	cursor: pointer;
-	font-size: 20px; 
-	border-radius: 5px; 
-    text-align: center;
-    padding: 14px 115px;
-}
-
-.facebook_btn {
-	text-decoration: none; 
-	background-color: #89ACED;
-	border: none; 
-	color: #FFFFFF; 
-	cursor: pointer;
-	font-size: 20px; 
-	border-radius: 5px; 
-    text-align: center;
-    padding: 14px 95px;
-}
-
-.gmail_btn{
-	text-decoration: none; 
-	background-color: #FF7272; 
-	border: none; 
-	color: #FFFFFF; 
-	cursor: pointer;
-	font-size: 20px; 
-	border-radius: 5px; 
-    text-align: center;
-    padding: 14px 120px;
-}
-
-.register_btn {
-	text-decoration: none; 
-	background-color: #B989E6; 
-	border: none; 
-	color: #FFFFFF; 
-	cursor: pointer;
-	font-size: 20px; 
-	border-radius: 5px; 
-    text-align: center;
-    padding: 14px 102px;
-}
-
-</style>
-
 <body>
 
 <div class="container">
@@ -92,7 +40,7 @@
 								<td></td>
 								<td></td>
 								<td></td>
-								<td><input type="text" name="name" placeholder="username" style="height: 25px; font-size: 20px;"></td>					
+								<td><input type="text" name="name" placeholder="username" style="height: 25px; font-size: 20px; border-radius: 5px;"></td>					
 							</tr>
 							<tr>
 								<td></td>
@@ -113,7 +61,7 @@
 								<td></td>
 								<td></td>
 								<td></td>
-								<td><input type="password" name="pwd" placeholder="password" style="height: 25px; font-size: 20px;"></td> 
+								<td><input type="password" name="pwd" placeholder="password" style="height: 25px; font-size: 20px; border-radius: 5px;"></td> 
 							</tr>
 						</table>	
 						<br>							

@@ -27,7 +27,18 @@
 		</div>
 	</div><!--header-->
 
-	<div class="main"></div><!--main-->
+	<div class="main">
+		<center>
+		<div class="setting">
+			<form style="font-size: 20px; color: #AEAEAE;">
+				<fieldset style="width: 900px; border-radius: 10px; background-color: #F0F0F0;">
+					<legend>SETTING</legend>
+
+				</fieldset>
+			</form>
+		</div><!--setting-->
+		</center>
+	</div><!--main-->
 
 	<div class="footer">
 		<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Linea_M_(Logo_Metro_Medellin).png" style="width: 80px; height: 80px; margin-left: 30px; margin-top: 30px; margin-bottom: 30px;">

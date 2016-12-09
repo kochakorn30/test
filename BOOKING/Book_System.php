@@ -53,7 +53,7 @@
         font-size: 20px;
         font-weight: bold;
     }
-    .out_btn {
+    .out_btn_one_one {
     	background-color: #E78585;
         padding: 30px 50px;
         text-decoration: none;
@@ -63,7 +63,77 @@
         font-size: 20px;
         font-weight: bold;
     }
-   	#plus_two {
+    .out_btn_one_one {
+    	background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_two_one {
+    	background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_three_one {
+    	background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_four_one {
+    	background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_five_one {
+    	background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_six_one {
+    	background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_seven_one {
+    	background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+   	.plus_two {
        	background-color: #000000;
      	border-color: #FFFFFF;
        	border-style: soid;
@@ -75,7 +145,7 @@
         font-size: 20px;
         font-weight: bold;
     }
-    #plus_three {
+    .plus_three {
 	    background-color: #000000;
 	    border-color: #FFFFFF;
 	    border-style: soid;
@@ -87,7 +157,7 @@
 	    font-size: 20px;
 	    font-weight: bold;
    }
-   #plus_four {
+   .plus_four {
 	    background-color: #000000;
 	    border-color: #FFFFFF;
 	    border-style: soid;
@@ -99,7 +169,7 @@
         font-size: 20px;
         font-weight: bold;
     }
-    #plus_five {
+    .plus_five {
        	background-color: #000000;
        	border-color: #FFFFFF;
        	border-style: soid;
@@ -111,7 +181,7 @@
         font-size: 20px;
         font-weight: bold;
     }
-    #minus_two {
+    .minus_two {
        	background-color: #FFFFFF;
        	border-color: #000000;
        	border-style: soid;
@@ -123,7 +193,7 @@
         font-size: 20px;
         font-weight: bold;
     }
-    #minus_three {
+    .minus_three {
        	background-color: #FFFFFF;
        	border-color: #000000;
        	border-style: soid;
@@ -135,7 +205,7 @@
         font-size: 20px;
         font-weight: bold;
     }
-    #minus_four {
+    .minus_four {
      	background-color: #FFFFFF;
      	border-color: #000000;
      	border-style: soid;
@@ -147,7 +217,7 @@
         font-size: 20px;
         font-weight: bold;
     }
-    #minus_five {
+    .minus_five {
      	background-color: #FFFFFF;
      	border-color: #000000;
      	border-style: soid;
@@ -579,30 +649,260 @@
 					<!--guest-->
 					<td>
 						<div class="guest">
+	<!--floor 1-->
 							<div id="one_one" class="tabcontent">
 							<br>
 						  		ROOM 101: STANDARD SINGLE
 						  	<br>
-						  		<div id="out_one">
-									<br>PERSON &nbsp&nbsp
-										
-											<input type="number" name="number" style="height: 25px; width: 50px; font-size: 20px;">
-										
+						  		<div id="out_one_one">
+									<br>PERSON &nbsp&nbsp										
+											<input type="number" name="number" style="height: 25px; width: 50px; font-size: 20px;">										
 									<br>GUEST 1 &nbsp&nbsp
 										<input type="text" name="name" id="out_one" style="height: 25px; width: 280px; font-size: 20px;">
-										<b id="plus_two">+</b>
-									<br><a style="display: none;" id="guest_two">GUEST 2 &nbsp&nbsp
+										<b class="plus_two">+</b>
+									<br><a style="display: none;" class="guest_two">GUEST 2 &nbsp&nbsp
 										<input type="text"  name="name" style="height: 25px; width: 280px; font-size: 20px;">
-										<b id="plus_three">+</b><b id="minus_two">-</b></a>
-									<br><a style="display: none;" id="guest_three">GUEST 3 &nbsp&nbsp
+										<b class="minus_two">-</b></a>									
+									<hr>
+										IN &nbsp&nbsp&nbsp&nbsp<input type="date" name="check-in" style="font-size: 20px;"> 
+										<br>OUT <input type="date" name="check-out" style="font-size: 20px;">
+									<hr>
+										<center>
+											<table>
+												<tr>
+													<td>
+														<input type="button" value="CHECK-IN" onClick="document.calculator.ans.value+='1500'" class="in_btn">
+													</td>
+													<td>
+														<input type="button" class="out_btn_one_one" value="CHECK-OUT">
+													</td>
+												</tr>
+											</table>
+										</center>
+								</div><!--out_one_one-->
+							</div><!--end one_one-->
+							<!--..............................-->
+							<div id="two_one" class="tabcontent">
+							<br>
+						  		ROOM 102: STANDARD SINGLE
+						  	<br>
+						  		<div id="out_two_one">
+									<br>PERSON &nbsp&nbsp										
+											<input type="number" name="number" style="height: 25px; width: 50px; font-size: 20px;">										
+									<br>GUEST 1 &nbsp&nbsp
+										<input type="text" name="name" id="out_one" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="plus_two">+</b>
+									<br><a style="display: none;" class="guest_two">GUEST 2 &nbsp&nbsp
+										<input type="text"  name="name" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="minus_two">-</b></a>
+									<hr>
+										IN &nbsp&nbsp&nbsp&nbsp<input type="date" name="check-in" style="font-size: 20px;"> 
+										<br>OUT <input type="date" name="check-out" style="font-size: 20px;">
+									<hr>
+										<center>
+											<table>
+												<tr>
+													<td>
+														<input type="button" value="CHECK-IN" onClick="document.calculator.ans.value+='1500'" class="in_btn">
+													</td>
+													<td>
+														<input type="button" class="out_btn_two_one" value="CHECK-OUT">
+													</td>
+												</tr>
+											</table>
+										</center>
+								</div><!--out_two_one-->
+							</div><!--end two_one-->
+							<!--..............................-->
+							<div id="three_one" class="tabcontent">
+							<br>
+						  		ROOM 103: STANDARD SINGLE
+						  	<br>
+						  		<div id="out_three_one">
+									<br>PERSON &nbsp&nbsp										
+											<input type="number" name="number" style="height: 25px; width: 50px; font-size: 20px;">										
+									<br>GUEST 1 &nbsp&nbsp
+										<input type="text" name="name" id="out_one" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="plus_two">+</b>
+									<br><a style="display: none;" class="guest_two">GUEST 2 &nbsp&nbsp
+										<input type="text"  name="name" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="minus_two">-</b></a>
+									<hr>
+										IN &nbsp&nbsp&nbsp&nbsp<input type="date" name="check-in" style="font-size: 20px;"> 
+										<br>OUT <input type="date" name="check-out" style="font-size: 20px;">
+									<hr>
+										<center>
+											<table>
+												<tr>
+													<td>
+														<input type="button" value="CHECK-IN" onClick="document.calculator.ans.value+='1500'" class="in_btn">
+													</td>
+													<td>
+														<input type="button" class="out_btn_three_one" value="CHECK-OUT">
+													</td>
+												</tr>
+											</table>
+										</center>
+								</div><!--out_three_one-->
+							</div><!--end three_one-->
+							<!--..............................-->
+							<div id="four_one" class="tabcontent">
+							<br>
+						  		ROOM 104: STANDARD SINGLE
+						  	<br>
+						  		<div id="out_four_one">
+									<br>PERSON &nbsp&nbsp										
+											<input type="number" name="number" style="height: 25px; width: 50px; font-size: 20px;">										
+									<br>GUEST 1 &nbsp&nbsp
+										<input type="text" name="name" id="out_one" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="plus_two">+</b>
+									<br><a style="display: none;" class="guest_two">GUEST 2 &nbsp&nbsp
+										<input type="text"  name="name" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="minus_two">-</b></a>
+									<hr>
+										IN &nbsp&nbsp&nbsp&nbsp<input type="date" name="check-in" style="font-size: 20px;"> 
+										<br>OUT <input type="date" name="check-out" style="font-size: 20px;">
+									<hr>
+										<center>
+											<table>
+												<tr>
+													<td>
+														<input type="button" value="CHECK-IN" onClick="document.calculator.ans.value+='1500'" class="in_btn">
+													</td>
+													<td>
+														<input type="button" class="out_btn_four_one" value="CHECK-OUT">
+													</td>
+												</tr>
+											</table>
+										</center>
+								</div><!--out_four_one-->
+							</div><!--end four_one-->
+							<!--..............................-->
+							<div id="five_one" class="tabcontent">
+							<br>
+						  		ROOM 105: STANDARD SINGLE
+						  	<br>
+						  		<div id="out_two_one">
+									<br>PERSON &nbsp&nbsp										
+											<input type="number" name="number" style="height: 25px; width: 50px; font-size: 20px;">										
+									<br>GUEST 1 &nbsp&nbsp
+										<input type="text" name="name" id="out_one" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="plus_two">+</b>
+									<br><a style="display: none;" class="guest_two">GUEST 2 &nbsp&nbsp
+										<input type="text"  name="name" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="minus_two">-</b></a>
+									<hr>
+										IN &nbsp&nbsp&nbsp&nbsp<input type="date" name="check-in" style="font-size: 20px;"> 
+										<br>OUT <input type="date" name="check-out" style="font-size: 20px;">
+									<hr>
+										<center>
+											<table>
+												<tr>
+													<td>
+														<input type="button" value="CHECK-IN" onClick="document.calculator.ans.value+='1500'" class="in_btn">
+													</td>
+													<td>
+														<input type="button" class="out_btn_five_one" value="CHECK-OUT">
+													</td>
+												</tr>
+											</table>
+										</center>
+								</div><!--out_five_one-->
+							</div><!--end five_one-->
+							<!--..............................-->
+							<div id="six_one" class="tabcontent">
+							<br>
+						  		ROOM 106: STANDARD SINGLE
+						  	<br>
+						  		<div id="out_six_one">
+									<br>PERSON &nbsp&nbsp										
+											<input type="number" name="number" style="height: 25px; width: 50px; font-size: 20px;">										
+									<br>GUEST 1 &nbsp&nbsp
+										<input type="text" name="name" id="out_one" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="plus_two">+</b>
+									<br><a style="display: none;" class="guest_two">GUEST 2 &nbsp&nbsp
+										<input type="text"  name="name" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="minus_two">-</b></a>
+									<hr>
+										IN &nbsp&nbsp&nbsp&nbsp<input type="date" name="check-in" style="font-size: 20px;"> 
+										<br>OUT <input type="date" name="check-out" style="font-size: 20px;">
+									<hr>
+										<center>
+											<table>
+												<tr>
+													<td>
+														<input type="button" value="CHECK-IN" onClick="document.calculator.ans.value+='1500'" class="in_btn">
+													</td>
+													<td>
+														<input type="button" class="out_btn_six_one" value="CHECK-OUT">
+													</td>
+												</tr>
+											</table>
+										</center>
+								</div><!--out_six_one-->
+							</div><!--end six_one-->
+							<!--..............................-->
+							<div id="seven_one" class="tabcontent">
+							<br>
+						  		ROOM 107: STANDARD SINGLE
+						  	<br>
+						  		<div id="out_seven_one">
+									<br>PERSON &nbsp&nbsp										
+											<input type="number" name="number" style="height: 25px; width: 50px; font-size: 20px;">										
+									<br>GUEST 1 &nbsp&nbsp
+										<input type="text" name="name" id="out_one" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="plus_two">+</b>
+									<br><a style="display: none;" class="guest_two">GUEST 2 &nbsp&nbsp
+										<input type="text"  name="name" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="minus_two">-</b></a>
+									<hr>
+										IN &nbsp&nbsp&nbsp&nbsp<input type="date" name="check-in" style="font-size: 20px;"> 
+										<br>OUT <input type="date" name="check-out" style="font-size: 20px;">
+									<hr>
+										<center>
+											<table>
+												<tr>
+													<td>
+														<input type="button" value="CHECK-IN" onClick="document.calculator.ans.value+='1500'" class="in_btn">
+													</td>
+													<td>
+														<input type="button" class="out_btn_seven_one" value="CHECK-OUT">
+													</td>
+												</tr>
+											</table>
+										</center>
+								</div><!--out_seven_one-->
+							</div><!--end seven_one-->
+							<!--..............................-->
+	<!--floor 2-->
+	<!--floor 3-->
+	<!--floor 4-->
+	<!--floor 5-->
+	<!--floor 6-->
+	<!--floor 7-->						
+							<!--
+							<div id="two_one" class="tabcontent">
+							<br>
+						  		ROOM 102: STANDARD SINGLE
+						  	<br>
+						  		<div id="out_two_one">
+									<br>PERSON &nbsp&nbsp										
+											<input type="number" name="number" style="height: 25px; width: 50px; font-size: 20px;">										
+									<br>GUEST 1 &nbsp&nbsp
+										<input type="text" name="name" id="out_two_one" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="plus_two">+</b>
+									<br><a style="display: none;" class="guest_two">GUEST 2 &nbsp&nbsp
+										<input type="text"  name="name" style="height: 25px; width: 280px; font-size: 20px;">
+										<b class="plus_three">+</b><b class="minus_two">-</b></a>
+									<br><a style="display: none;" class="guest_three">GUEST 3 &nbsp&nbsp
 										<input type="text" name="name" style="height: 25px; width: 280px; font-size: 20px;">
-										<b id="plus_four">+</b><b id="minus_three">-</b></a>
-									<br><a style="display: none;" id="guest_four">GUEST 4 &nbsp&nbsp
+										<b class="plus_four">+</b><b class="minus_three">-</b></a>
+									<br><a style="display: none;" class="guest_four">GUEST 4 &nbsp&nbsp
 										<input type="text" name="name" style="height: 25px; width: 280px; font-size: 20px;">
-										<b id="plus_five">+</b><b id="minus_four">-</b></a>
-									<br><a style="display: none;" id="guest_five">GUEST 5 &nbsp&nbsp
+										<b class="plus_five">+</b><b class="minus_four">-</b></a>
+									<br><a style="display: none;" class="guest_five">GUEST 5 &nbsp&nbsp
 										<input type="text" name="name" style="height: 25px; width: 280px; font-size: 20px;">
-										<b id="minus_five">-</b></a>
+										<b class="minus_five">-</b></a>
 									<hr>
 										PRICE 1500
 									<hr>
@@ -618,15 +918,27 @@
 												</tr>
 											</table>
 										</center>
-								</div><!--out_one-->
-							</div><!--end one_one-->												
+								</div><!--end out_two_one-->
+							</div><!--end two_one-->																																							
 						</div><!--end guest-->
 					</td>
 					<!--rate-->
 					<td>
 						<div class="rate">
-							<a style="font-weight: bold; font-size: 30px; font-family: arial; color: #E1764E;">ESPANA HOTEL</a>
+							<a style="font-weight: bold; font-size: 25px; font-family: arial; color: #7D6F69;">
+								BOOKING SYSTEM
+							</a>
+								<hr>
 								<br>
+								<a style="font-weight: bold; font-size: 30px; font-family: arial; color: #E1764E;">
+									<center>ESPANA HOTEL</center>
+								</a>					
+								<br>
+							</a>
+							<hr>
+							<a style="font-weight: bold; font-size: 25px; font-family: arial; color: #7D6F69;">
+								INFORMATION
+							</a>
 								<hr>
 									<a style="font-weight: bold; font-size: 25px; font-family: arial; color: #7D6F69;"><b>ROOM RATE</b></a>
 										<table style="font-family: arial; font-size: 19px;">
@@ -646,8 +958,7 @@
 											</tr>
 										</table>
 								<hr>
-								<br>
-									<a style="font-weight: bold; font-size: 25px; font-family: arial; color: #7D6F69;">EXTRA SERVICE</a>
+									<a style="font-weight: bold; font-size: 25px; font-family: arial; color: #7D6F69;"><b>EXTRA SERVICE</b></a>									
 										<table style="font-family: arial; font-size: 19px;">
 											<tr>
 												<td>&nbsp  <b>SERVICE</b></td>
@@ -663,8 +974,7 @@
 												<td>&nbsp 100</td>
 												<td>&nbsp 150</td>
 											</tr>
-										</table>
-								<hr>
+										</table>																		
 						</div><!--end rate-->
 					</td>
 				</tr>
@@ -818,50 +1128,84 @@
 	//end booking button
 	//plus minus guest
 	$(document).ready(function() {
- 			$("#plus_two").click(function() {
-   			$("#guest_two").show();
+ 			$(".plus_two").click(function() {
+   			$(".guest_two").show();
   		});
 	});
 	$(document).ready(function() {
- 			$("#plus_three").click(function() {
-   			$("#guest_three").show();
+ 			$(".plus_three").click(function() {
+   			$(".guest_three").show();
   		});
-  			$("#minus_two").click(function() {
-    		$("#guest_two").hide();
-  		});
-	});
-	$(document).ready(function() {
- 			$("#plus_four").click(function() {
-   			$("#guest_four").show();
-  		});
-  			$("#minus_three").click(function() {
-    		$("#guest_three").hide();
+  			$(".minus_two").click(function() {
+    		$(".guest_two").hide();
   		});
 	});
 	$(document).ready(function() {
- 			$("#plus_five").click(function() {
-   			$("#guest_five").show();
+ 			$(".plus_four").click(function() {
+   			$(".guest_four").show();
   		});
-  			$("#minus_four").click(function() {
-    		$("#guest_four").hide();
+  			$(".minus_three").click(function() {
+    		$(".guest_three").hide();
   		});
 	});
 	$(document).ready(function() {
-  			$("#minus_five").click(function() {
-    		$("#guest_five").hide();
+ 			$(".plus_five").click(function() {
+   			$(".guest_five").show();
+  		});
+  			$(".minus_four").click(function() {
+    		$(".guest_four").hide();
+  		});
+	});
+	$(document).ready(function() {
+  			$(".minus_five").click(function() {
+    		$(".guest_five").hide();
   		});
 	});
 	//end plus minus guest
 	//check out
+	//floor 1
 	$(document).ready(function(){
-	    $(".out_btn").click(function(){
-	        $("#out_one").empty();
+	    $(".out_btn_one_one").click(function(){
+	        $("#out_one_one").empty();
     	});
 	});
-	//end check out
 	$(document).ready(function(){
-	    $(".out_btn").click(function(){
+	    $(".out_btn_two_one").click(function(){
+	        $("#out_two_one").empty();
+    	});
+	});
+	$(document).ready(function(){
+	    $(".out_btn_three_one").click(function(){
+	        $("#out_three_one").empty();
+    	});
+	});
+	$(document).ready(function(){
+	    $(".out_btn_four_one").click(function(){
+	        $("#out_four_one").empty();
+    	});
+	});
+	$(document).ready(function(){
+	    $(".out_btn_five_one").click(function(){
+	        $("#out_five_one").empty();
+    	});
+	});
+	$(document).ready(function(){
+	    $(".out_btn_six_one").click(function(){
+	        $("#out_six_one").empty();
+    	});
+	});
+	$(document).ready(function(){
+	    $(".out_btn_seven_one").click(function(){
+	        $("#out_seven_one").empty();
+    	});
+	});
+	//end floor 1
+	//end check out
+	//total clear
+	$(document).ready(function(){
+	    $(".cash").click(function(){
 	        $(".ans_total").clear();
     	});
 	});
+	//end total clear
 </script>

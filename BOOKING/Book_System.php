@@ -261,6 +261,18 @@
        	height: 220px;
        	background-color: #90DFD3;        
 	}
+	.night_btn {
+		padding: 20px 28px;
+        font-family: arial;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: #73A2BD;
+        border-style: solid;
+	}
 	/*tab*/
 	ul.tab {
 	    list-style-type: none;
@@ -613,7 +625,46 @@
 					<!--rate-->
 					<td>
 						<div class="rate">
-							
+							<a style="font-weight: bold; font-size: 30px; font-family: arial; color: #E1764E;">ESPANA HOTEL</a>
+								<br>
+								<hr>
+									<a style="font-weight: bold; font-size: 25px; font-family: arial; color: #7D6F69;"><b>ROOM RATE</b></a>
+										<table style="font-family: arial; font-size: 19px;">
+											<tr>
+												<td>&nbsp  <b>ROOM</b></td>
+												<td>&nbsp  STANDARD</td>
+												<td>&nbsp  SUPERIOR</td>
+												<td>&nbsp  DELUXE</td>
+												<td>&nbsp  FAMILY</td>
+											</tr>
+											<tr>
+												<td>&nbsp <b>PRICE</b></td>
+												<td>&nbsp 1500</td>
+												<td>&nbsp 2000</td>
+												<td>&nbsp 2500</td>
+												<td>&nbsp 4500</td>
+											</tr>
+										</table>
+								<hr>
+								<br>
+									<a style="font-weight: bold; font-size: 25px; font-family: arial; color: #7D6F69;">EXTRA SERVICE</a>
+										<table style="font-family: arial; font-size: 19px;">
+											<tr>
+												<td>&nbsp  <b>SERVICE</b></td>
+												<td>&nbsp  B-ADULT</td>
+												<td>&nbsp  B-CHILD</td>
+												<td>&nbsp  BREAKFAST</td>
+												<td>&nbsp  DINNER</td>
+											</tr>
+											<tr>
+												<td>&nbsp <b>PRICE</b></td>
+												<td>&nbsp 500</td>
+												<td>&nbsp 200</td>
+												<td>&nbsp 100</td>
+												<td>&nbsp 150</td>
+											</tr>
+										</table>
+								<hr>
 						</div><!--end rate-->
 					</td>
 				</tr>
@@ -694,7 +745,45 @@
 					<!--night-->
 					<td>
 						<div class="night">
-
+							<a style="font-weight: bold; font-size: 30px; font-family: arial; color: #656465;">NIGHT</a>
+								<center>
+									<table>
+										<tr>
+											<td>
+												<input type="button" value="+" onClick="document.calculator.ans.value+='*'" class="night_btn" style="background-color: #C87AA1; padding: 22px 30px;">
+											</td>
+											<td>
+												<input type="button" value="2" onClick="document.calculator.ans.value+='2'" class="night_btn">
+											</td>
+											<td>
+												<input type="button" value="3" onClick="document.calculator.ans.value+='3'" class="night_btn">
+											</td>
+											<td>
+												<input type="button" value="4" onClick="document.calculator.ans.value+='4'" class="night_btn">
+											</td>
+											<td>
+												<input type="button" value="5" onClick="document.calculator.ans.value+='5'" class="night_btn">
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<input type="button" value="6" onClick="document.calculator.ans.value+='6'" class="night_btn">
+											</td>
+											<td>
+												<input type="button" value="7" onClick="document.calculator.ans.value+='7'" class="night_btn">
+											</td>
+											<td>
+												<input type="button" value="8" onClick="document.calculator.ans.value+='8'" class="night_btn">
+											</td>
+											<td>
+												<input type="button" value="9" onClick="document.calculator.ans.value+='9'" class="night_btn">
+											</td>
+											<td>
+												<input type="button" value="10" onClick="document.calculator.ans.value+='10'" class="night_btn">
+											</td>
+										</tr>
+									</table>
+								</center>
 						</div><!--end night-->
 					</td>
 				</tr>

@@ -1200,6 +1200,18 @@
     	});
 	});
 	//end floor 1
+	//floor 2
+	//end floor 2
+	//floor 3
+	//end floor 3
+	//floor 4
+	//end floor 4
+	//floor 5
+	//end floor 5
+	//floor 6
+	//end floor 6
+	//floor 7
+	//end floor 7
 	//end check out
 	//total clear
 	$(document).ready(function(){

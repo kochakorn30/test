@@ -33,11 +33,122 @@
 				width: 370px;
 				height: 500px;
 			}
+			.s_program_one {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_two {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_three {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_four {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_five {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_six {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_seven {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_eight {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_nine {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_ten {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_eleven {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
+			.s_program_twelve {
+				background-color: #FAE6D2;
+				text-align: center;padding: 10px 7px;
+				border: 1px solid;
+				cursor: pointer;
+			}
 		/*deep*/
 			.deep {
 				background-color: #FFEDDC;
 				width: 370px;
 				height: 500px;
+			}
+			.s_detail_one {
+				display: none;
+			}
+			.s_detail_two {
+				display: none;
+			}
+			.s_detail_three {
+				display: none;
+			}
+			.s_detail_four {
+				display: none;
+			}
+			.s_detail_five {
+				display: none;
+			}
+			.s_detail_six {
+				display: none;
+			}
+			.s_detail_seven {
+				display: none;
+			}
+			.s_detail_eight {
+				display: none;
+			}
+			.s_detail_nine {
+				display: none;
+			}
+			.s_detail_ten {
+				display: none;
+			}
+			.s_detail_eleven {
+				display: none;
+			}
+			.s_detail_twelve {
+				display: none;
+			}
+			.s_detail_ {
+				display: none;
 			}
 		/*menu*/
 			.menu {
@@ -185,7 +296,64 @@
 						<div class="detail">
 							<!--spa-->
 								<div id="s_one" class="tabcontent">
-								  	s1
+										  	SPA
+									<table>
+										<tr>
+										  	<td>ROOM:</td> 
+										  	<td>S1</td>
+										</tr>
+										<tr>
+										  	<td>GUEST:</td> 
+										  	<td>&nbsp&nbsp <input type="number" name="guest" style="width: 50px; height: 25px; font-size: 20px;"></td>
+										</tr>
+										<tr>
+										  	<td>NAME:</td> 
+										  	<td>&nbsp&nbsp <input type="text" name="name" style="width: 200px; height: 25px; font-size: 20px;"></td>
+										</tr>
+									</table>
+										  	<br>PROGRAM: 
+									  		<table>
+									  			<tr>
+									  				<td>									  											  								
+							  							<div class="s_program_one">S1</a></div>
+									  				</td>
+									  				<td>
+									  					<div class="s_program_two">S2</a></div>
+									  				</td>
+									  				<td>
+									  					<div class="s_program_three">S3</a></div>
+									  				</td>
+									  				<td>
+									  					<div class="s_program_four">S4</a></div>
+									  				</td>
+									  				<td>
+									  					<div class="s_program_five">S5</a></div>
+									  				</td>
+									  				<td>
+									  					<div class="s_program_six">S6</a></div>
+									  				</td>
+									  			</tr>
+									  			<tr>
+									  				<td>
+									  					<div class="s_program_seven">S7</a></div>
+									  				</td>
+									  				<td>
+									  					<div class="s_program_eight">S8</a></div>
+									  				</td>
+									  				<td>
+									  					<div class="s_program_nine">S9</a></div>
+									  				</td>
+									  				<td>
+									  					<div class="s_program_ten">S10</a></div>
+									  				</td>
+									  				<td>
+									  					<div class="s_program_eleven">S11</a></div>
+									  				</td>
+									  				<td>
+									  					<div class="s_program_twelve">S12</a></div>
+									  				</td>
+									  			</tr>
+									  		</table>
 								</div>
 								<div id="s_two" class="tabcontent">
 								  	s2
@@ -225,7 +393,22 @@
 						</div><!--end detail-->
 					</td>
 					<td>
-						<div class="deep"></div><!--end deep-->
+						<div class="deep">
+							<!--spa detail-->
+								<div class="s_detail_one">444444</div>
+								<div class="s_detail_two">44vfd4</div>
+								<div class="s_detail_three">4vfdsv444</div>
+								<div class="s_detail_four">444fds444</div>
+								<div class="s_detail_five">444efd444</div>
+								<div class="s_detail_six">44444cqe4</div>
+								<div class="s_detail_seven">44qedq4444</div>
+								<div class="s_detail_eight">444qwq444</div>
+								<div class="s_detail_nine">444ewdw444</div>
+								<div class="s_detail_ten">444444</div>
+								<div class="s_detail_eleven">44fwef4444</div>
+								<div class="s_detail_twelve">44efw4444</div>
+							<!--end spa detail-->
+						</div><!--end deep-->
 					</td>
 					<td>
 						<div class="menu"></div><!--end menu-->
@@ -263,4 +446,66 @@
 			    evt.currentTarget.className += " active";
 			}
 		//end tab
+		//show spa
+			$(document).ready(function() {
+		 			$(".s_program_one").click(function() {
+		   			$(".s_detail_one").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_two").click(function() {
+		   			$(".s_detail_two").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_three").click(function() {
+		   			$(".s_detail_three").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_four").click(function() {
+		   			$(".s_detail_four").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_five").click(function() {
+		   			$(".s_detail_five").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_six").click(function() {
+		   			$(".s_detail_six").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_seven").click(function() {
+		   			$(".s_detail_seven").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_eight").click(function() {
+		   			$(".s_detail_eight").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_nine").click(function() {
+		   			$(".s_detail_nine").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_ten").click(function() {
+		   			$(".s_detail_ten").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_eleven").click(function() {
+		   			$(".s_detail_eleven").show();
+		  		});
+			});
+			$(document).ready(function() {
+		 			$(".s_program_twelve").click(function() {
+		   			$(".s_detail_twelve").show();
+		  		});
+			});
+		//end show spa
 	</script>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PHONE | MOM</title>
+	<title>PHONE | AUNT</title>
 </head>
 	<style>
 		body {
@@ -42,13 +42,13 @@
 		<div class="image">
 			<div class="pic">
 				<center>
-					<img src="C:\xampp\htdocs\test\test\SMARTPHONE\PHONE\img\mom.jpg" style="width: 120px; height: 120px; border-radius: 60px; margin-top: 50px;">
+					<img src="C:\xampp\htdocs\test\test\SMARTPHONE\PHONE\img\aunt.jpg" style="width: 120px; height: 120px; border-radius: 60px; margin-top: 50px;">
 				</center>
 			</div><!--end image-->
 		</div>
 		<div class="call">
 			<div class="calling">
-				<center style="margin-top: 50px; font-size: 25px; color: #6D6D6D;">Mom.....</center>
+				<center style="margin-top: 50px; font-size: 25px; color: #6D6D6D;">Aunt.....</center>
 			</div>
 		</div><!--end call-->
 		<div class="end">

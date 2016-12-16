@@ -190,8 +190,8 @@
 			margin-left: 10px;
 			border-radius: 11px;
 		}
-		.app22 {
-			background-color: #000000;
+		.calculator {
+			background-color: #FFFFFF;
 			width: 48px;
 			height: 48px;
 			margin-top: 21px;
@@ -322,8 +322,12 @@
 						<center style="margin-left: 5px;">Phone</center>
 					</td>
 					<td>
-						<div class="app22"></div>
-						<center style="margin-left: 5px;">app22</center>
+						<div class="calculator">
+							<a href="#">
+								<img src="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/1024/Calculator_5122x.png" style="width: 57px; height: 57px; margin-top: -4px; margin-left: -4px;">
+							</a>
+						</div><!--end calculator-->
+						<center style="margin-left: 5px;">Calculator</center>
 					</td>
 					<td>
 						<div class="app23"></div>

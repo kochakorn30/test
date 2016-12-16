@@ -198,8 +198,8 @@
 			margin-left: 8px;
 			border-radius: 11px;
 		}
-		.app23 {
-			background-color: #000000;
+		.notes {
+			background-color: #FFFFFF;
 			width: 48px;
 			height: 48px;
 			margin-top: 21px;
@@ -323,15 +323,19 @@
 					</td>
 					<td>
 						<div class="calculator">
-							<a href="#">
+							<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/CALCULATOR/calculator.php">
 								<img src="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/1024/Calculator_5122x.png" style="width: 57px; height: 57px; margin-top: -4px; margin-left: -4px;">
 							</a>
 						</div><!--end calculator-->
 						<center style="margin-left: 5px;">Calculator</center>
 					</td>
 					<td>
-						<div class="app23"></div>
-						<center style="margin-left: 5px;">app23</center>
+						<div class="notes">
+							<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/NOTES/notes.php">
+								<img src="http://icons.iconarchive.com/icons/walrick/openphone/256/Notes-icon.png" style="width: 53px; height: 53px; margin-top: -2px; margin-left: -3px;">
+							</a>
+						</div>
+						<center style="margin-left: 5px;">Notes</center>
 					</td>
 					<td>
 						<div class="app24"></div>

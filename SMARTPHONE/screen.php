@@ -22,7 +22,7 @@
 			margin-top: 73px;
 			margin-left: 106px;
 		}
-		.app1 {
+		.facebook {
 			background-color: #000000;
 			width: 48px;
 			height: 48px;
@@ -30,7 +30,7 @@
 			margin-left: 10px;
 			border-radius: 11px;
 		}
-		.app2 {
+		.bbq_q {
 			background-color: #000000;
 			width: 48px;
 			height: 48px;
@@ -206,11 +206,11 @@
 			margin-left: 9px;
 			border-radius: 11px;
 		}
-		.app24 {
+		.calendar {
 			background-color: #000000;
 			width: 48px;
 			height: 48px;
-			margin-top: 21px;
+			margin-top: 22px;
 			margin-left: 9px;
 			border-radius: 11px;
 		}
@@ -221,12 +221,21 @@
 		<table>
 			<tr>
 				<td>
-					<div class="app1"></div>
-					<center style="margin-left: 5px;">app1</center>
+					<div class="facebook">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/FACEBOOK/main.php">
+								<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" style="width: 50px; height: 50px; margin-top: -1px; margin-left: -1px; border-radius: 12px;">
+							</a>
+						</div>
+					</div>
+					<center style="margin-left: 5px;">Facebook</center>
 				</td>
 				<td>
-					<div class="app2"></div>
-					<center style="margin-left: 5px;">app2</center>
+					<div class="bbq_q">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/home.php">
+							<img src="http://imagecenter.lord-of-deb.com/whatsale/icon/barbqplaza.png" style="width: 50px; height: 50px; margin-top: -1px; margin-left: -1px; border-radius: 12px;">
+						</a>
+					</div>
+					<center style="margin-left: 5px;">BBQ Q</center>
 				</td>
 				<td>
 					<div class="app3"></div>
@@ -338,8 +347,12 @@
 						<center style="margin-left: 5px;">Notes</center>
 					</td>
 					<td>
-						<div class="app24"></div>
-						<center style="margin-left: 5px;">app24</center>
+						<div class="calendar">
+							<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/CALENDAR/calendar.php">
+								<img src="http://3.bp.blogspot.com/-qXEWeNzaKo4/VQuTjvDakTI/AAAAAAAAH6Q/0I987Srnrp0/s1600/iPhone---Calendar.png" style="width: 53px; height: 53px; margin-top: -2px; margin-left: -3px;">
+							</a>
+						</div>
+						<center style="margin-left: 5px;">Calendar</center>
 					</td>
 				</tr>
 			</table>

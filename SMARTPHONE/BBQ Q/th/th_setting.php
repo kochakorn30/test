@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BBQ Q | SETTING</title>
+	<title>BBQ Q | ตั้งค่า</title>
 </head>
 	<style>
 		body {
@@ -50,7 +50,7 @@
 			background-color: #DB3A1b;
 		    border: none;
 		    color: white;
-		    padding: 25px 75px;
+		    padding: 25px 72px;
 		    text-align: center;
 		    text-decoration: none;
 		    display: inline-block;
@@ -67,24 +67,24 @@
 			<table>
 				<tr>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/menu.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_menu.php">
 							<img src="http://th.japantravel.com/images/left-arrow.png" style="width: 40px; height: 40px; margin-left: -5px; margin-top: -3px; columns: #FFFFFF;">
 						</a>
 					</td>
 					<td style="font-size: 38px;"><center style="margin-top: -12px; margin-left: -5px; color: #FFFFFF;"> | </center></td>
-					<td style="font-size: 20px;"><center style="margin-bottom: 5px; color: #FFFFFF;">Setting</center></td>
+					<td style="font-size: 20px;"><center style="margin-bottom: 5px; color: #FFFFFF;">ตั้งค่า</center></td>
 				</tr>
 			</table>
 		</div><!--end head_bar-->
 		<div class="field">
 			<center>
-				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/notification.php">
-					<div class="notice">Notification</div>
+				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_notification.php">
+					<div class="notice">การแจ้งเตือน</div>
 				</a>
 			</center>
 			<center>
-				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/language.php">
-					<div class="lang">Language</div>
+				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_language.php">
+					<div class="lang">เปลี่ยนภาษา</div>
 				</a>
 			</center>
 		</div><!--end field-->

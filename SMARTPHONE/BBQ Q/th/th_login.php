@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BBQ Q | SETTING</title>
+	<title>BBQ Q | เข้าสู่หน้าหลัก</title>
 </head>
 	<style>
 		body {
@@ -30,34 +30,21 @@
 			width: 235px;
 			height: auto; 
 			margin-left: 10px;
-			margin-top: 50px;
+			margin-top: 40px;
 			font-size: 20px;
 		}
-		.notice {
-			background-color: #3B5998;
+		.login_btn {
+			background-color: #4CAF50;
 		    border: none;
 		    color: white;
-		    padding: 25px 68px;
+		    padding: 22px 86px;
 		    text-align: center;
 		    text-decoration: none;
 		    display: inline-block;
-		    font-size: 16px;
+		    font-size: 18px;
 		    cursor: pointer;
-		    border-radius: 5px;
-		    margin-top: 5px;
-		}
-		.lang {
-			background-color: #DB3A1b;
-		    border: none;
-		    color: white;
-		    padding: 25px 75px;
-		    text-align: center;
-		    text-decoration: none;
-		    display: inline-block;
-		    font-size: 16px;
-		    cursor: pointer;
-		    border-radius: 5px;
-		    margin-top: 20px;
+		    margin-bottom: 5px;
+		    margin-top: 172px;
 		}
 	</style>
 <body>
@@ -67,27 +54,26 @@
 			<table>
 				<tr>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/menu.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_home.php">
 							<img src="http://th.japantravel.com/images/left-arrow.png" style="width: 40px; height: 40px; margin-left: -5px; margin-top: -3px; columns: #FFFFFF;">
 						</a>
 					</td>
 					<td style="font-size: 38px;"><center style="margin-top: -12px; margin-left: -5px; color: #FFFFFF;"> | </center></td>
-					<td style="font-size: 20px;"><center style="margin-bottom: 5px; color: #FFFFFF;">Setting</center></td>
+					<td style="font-size: 20px;"><center style="margin-bottom: 5px; color: #FFFFFF;">เข้าสู่หน้าหลัก</center></td>
 				</tr>
 			</table>
 		</div><!--end head_bar-->
 		<div class="field">
-			<center>
-				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/notification.php">
-					<div class="notice">Notification</div>
-				</a>
-			</center>
-			<center>
-				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/language.php">
-					<div class="lang">Language</div>
-				</a>
-			</center>
+			ชื่อผู้ใช้:
+			<br><input type="text" name="name" required style="width: 230px; height: 25px; font-size: 20px; border-radius: 5px;">
+			<br>
+			<br>
+			รหัสผ่าน:
+			<br><input type="password" name="pwd" required style="width: 230px; height: 25px; font-size: 20px; border-radius: 5px;">	
 		</div><!--end field-->
+		<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_menu.php">
+			<div class="login_btn">เข้าสู่ระบบ</div>
+		</a>	
 	</div><!--end background-->
 </div><!--end container-->
 </body>

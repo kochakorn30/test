@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BBQ Q | HISTORY</title>
+	<title>BBQ Q | ประวัติการจอง</title>
 </head>
 	<style>
 		body {
@@ -32,7 +32,7 @@
 			margin-top: 10px;
 		}
 		.tab {
-			padding: 15px 11.8px;
+			padding: 15px 14px;
 			background-color: #49A942;
 			font-size: 18px;
 			border-bottom: solid;
@@ -44,7 +44,7 @@
 		    cursor: pointer;		
 		}
 		.tab1 {
-			padding: 15px 11.8px;
+			padding: 15px 14px;
 			background-color: #49A942;
 			font-size: 18px;
 			color: #FFFFFF;
@@ -62,24 +62,24 @@
 			<table>
 				<tr>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/menu.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_menu.php">
 							<img src="http://th.japantravel.com/images/left-arrow.png" style="width: 40px; height: 40px; margin-left: -5px; margin-top: -3px; columns: #FFFFFF;">
 						</a>
 					</td>
 					<td style="font-size: 38px;"><center style="margin-top: -12px; margin-left: -5px; color: #FFFFFF;"> | </center></td>
-					<td style="font-size: 20px;"><center style="margin-bottom: 5px; color: #FFFFFF;">History</center></td>
+					<td style="font-size: 20px;"><center style="margin-bottom: 5px; color: #FFFFFF;">ประวัติการจอง</center></td>
 				</tr>
 			</table>
 		</div><!--end head_bar-->
 		<div class="field">
-			<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/his1.php">
-				<div class="tab">Date XX/XX/XX &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-forward-512.png" style="width: 20px; height: 20px;"></div>
+			<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_his1.php">
+				<div class="tab">วันที่ XX/XX/XX &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-forward-512.png" style="width: 20px; height: 20px;"></div>
 			</a>
-			<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/his2.php">
-				<div class="tab">Date XX/XX/XX &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-forward-512.png" style="width: 20px; height: 20px;"></div>
+			<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_his2.php">
+				<div class="tab">วันที่ XX/XX/XX &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-forward-512.png" style="width: 20px; height: 20px;"></div>
 			</a>
-			<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/his3.php">
-				<div class="tab1">Date XX/XX/XX &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-forward-512.png" style="width: 20px; height: 20px;"></div>
+			<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_his3.php">
+				<div class="tab1">วันที่ XX/XX/XX &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-forward-512.png" style="width: 20px; height: 20px;"></div>
 			</a>
 		</div><!--end field-->
 	</div><!--end background-->

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BBQ Q | COUPON</title>
+	<title>BBQ Q | คูปอง</title>
 </head>
 	<style>
 		body {
@@ -77,12 +77,12 @@
 			<table>
 				<tr>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/menu.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_menu.php">
 							<img src="http://th.japantravel.com/images/left-arrow.png" style="width: 40px; height: 40px; margin-left: -5px; margin-top: -3px; columns: #FFFFFF;">
 						</a>
 					</td>
 					<td style="font-size: 38px;"><center style="margin-top: -12px; margin-left: -5px; color: #FFFFFF;"> | </center></td>
-					<td style="font-size: 20px;"><center style="margin-bottom: 5px; color: #FFFFFF;">Coupon</center></td>
+					<td style="font-size: 20px;"><center style="margin-bottom: 5px; color: #FFFFFF;">คูปอง</center></td>
 				</tr>
 			</table>
 		</div><!--end head_bar-->
@@ -90,48 +90,48 @@
 			<table>
 				<tr>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/4pay3.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_4pay3.php">
 							<div class="coupon1">
-								<img src="C:\xampp\htdocs\test\test\SMARTPHONE\BBQ Q\img\4pay3.png" style="width: 107px; height: 122px;">
+								<img src="C:\xampp\htdocs\test\test\SMARTPHONE\BBQ Q\img\th_4pay3.png" style="width: 107px; height: 122px;">
 							</div>
 						</a>
 					</td>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/3pay2.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_3pay2.php">
 							<div class="coupon2">
-								<img src="C:\xampp\htdocs\test\test\SMARTPHONE\BBQ Q\img\3pay2.png" style="width: 107px; height: 122px;">
+								<img src="C:\xampp\htdocs\test\test\SMARTPHONE\BBQ Q\img\th_3pay2.png" style="width: 107px; height: 122px;">
 							</div>
 						</a>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/dis10.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_dis10.php">
 							<div class="coupon3">
-								<img src="C:\xampp\htdocs\test\test\SMARTPHONE\BBQ Q\img\dis10.png" style="width: 107px; height: 122px;">
+								<img src="C:\xampp\htdocs\test\test\SMARTPHONE\BBQ Q\img\th_dis10.png" style="width: 107px; height: 122px;">
 							</div>
 						</a>
 					</td>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/dis20.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_dis20.php">
 							<div class="coupon4">
-								<img src="https://www.supercuts.co.uk/wp-content/uploads/2013/07/20-discount1.jpg" style="width: 107px; height: 122px;">
+								<img src="C:\xampp\htdocs\test\test\SMARTPHONE\BBQ Q\img\th_dis20.png" style="width: 107px; height: 122px;">
 							</div>
 						</a>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/dis100.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_dis100.php">
 							<div class="coupon5">
-								<img src="http://www.visa.com/images/merchantoffers/2016-05/1464167645216.th16_tmb_Tops_Supermarket.jpg" style="width: 107px; height: 122px;">
+								<img src="C:\xampp\htdocs\test\test\SMARTPHONE\BBQ Q\img\th_dis100.png" style="width: 107px; height: 122px;">
 							</div>
 						</a>
 					</td>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/dis200.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/th/th_dis200.php">
 							<div class="coupon6">
-								<img src="C:\xampp\htdocs\test\test\SMARTPHONE\BBQ Q\img\dis200.png" style="width: 107px; height: 122px;">
+								<img src="C:\xampp\htdocs\test\test\SMARTPHONE\BBQ Q\img\th_dis200.png" style="width: 107px; height: 122px;">
 							</div>
 						</a>
 					</td>

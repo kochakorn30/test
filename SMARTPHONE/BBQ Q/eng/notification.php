@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>BBQ Q | SETTING</title>
+	<title>BBQ Q | NOTIFICATION</title>
 </head>
 	<style>
 		body {
@@ -30,34 +30,12 @@
 			width: 235px;
 			height: auto; 
 			margin-left: 10px;
-			margin-top: 50px;
-			font-size: 20px;
+			margin-top: 40px;
+			font-size: 25px;
 		}
-		.notice {
-			background-color: #3B5998;
-		    border: none;
-		    color: white;
-		    padding: 25px 68px;
-		    text-align: center;
-		    text-decoration: none;
-		    display: inline-block;
-		    font-size: 16px;
-		    cursor: pointer;
-		    border-radius: 5px;
-		    margin-top: 5px;
-		}
-		.lang {
-			background-color: #DB3A1b;
-		    border: none;
-		    color: white;
-		    padding: 25px 75px;
-		    text-align: center;
-		    text-decoration: none;
-		    display: inline-block;
-		    font-size: 16px;
-		    cursor: pointer;
-		    border-radius: 5px;
-		    margin-top: 20px;
+		input {
+			width: 20px;
+			height: 20px;
 		}
 	</style>
 <body>
@@ -67,25 +45,35 @@
 			<table>
 				<tr>
 					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/menu.php">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/setting.php">
 							<img src="http://th.japantravel.com/images/left-arrow.png" style="width: 40px; height: 40px; margin-left: -5px; margin-top: -3px; columns: #FFFFFF;">
 						</a>
 					</td>
 					<td style="font-size: 38px;"><center style="margin-top: -12px; margin-left: -5px; color: #FFFFFF;"> | </center></td>
-					<td style="font-size: 20px;"><center style="margin-bottom: 5px; color: #FFFFFF;">Setting</center></td>
+					<td style="font-size: 20px;"><center style="margin-bottom: 5px; color: #FFFFFF;">Notification</center></td>
 				</tr>
 			</table>
 		</div><!--end head_bar-->
 		<div class="field">
+			News:
+			<br>
 			<center>
-				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/notification.php">
-					<div class="notice">Notification</div>
-				</a>
+			<input type="checkbox" name="on"><b style="color: #85C446;">ON</b>
+			<input type="checkbox" name="off"><b style="color: #E42313">OFF</b>
 			</center>
+			<hr>
+			Sound:
+			<br>
 			<center>
-				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/BBQ%20Q/eng/language.php">
-					<div class="lang">Language</div>
-				</a>
+			<input type="checkbox" name="on"><b style="color: #85C446;">ON</b>
+			<input type="checkbox" name="off"><b style="color: #E42313">OFF</b>
+			</center>
+			<br>
+			Vibrate:
+			<br>
+			<center>
+			<input type="checkbox" name="on"><b style="color: #85C446;">ON</b>
+			<input type="checkbox" name="off"><b style="color: #E42313">OFF</b>
 			</center>
 		</div><!--end field-->
 	</div><!--end background-->

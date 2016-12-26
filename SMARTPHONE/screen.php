@@ -38,23 +38,23 @@
 			margin-left: 8px;
 			border-radius: 11px;
 		}
-		.app3 {
-			background-color: #000000;
+		.colorcode {
+			background-color: #FFFFFF;
 			width: 48px;
 			height: 48px;
 			margin-top: 17px;
 			margin-left: 9px;
 			border-radius: 11px;
 		}
-		.app4 {
+		.emergency {
 			background-color: #000000;
 			width: 48px;
 			height: 48px;
 			margin-top: 17px;
-			margin-left: 8px;
+			margin-left: 7px;
 			border-radius: 11px;
 		}
-		.app5 {
+		.w3schools {
 			background-color: #000000;
 			width: 48px;
 			height: 48px;
@@ -62,8 +62,8 @@
 			margin-left: 10px;
 			border-radius: 11px;
 		}
-		.app6 {
-			background-color: #000000;
+		.conan {
+			background-color: #FFFFFF;
 			width: 48px;
 			height: 48px;
 			margin-top: 6px;
@@ -238,22 +238,38 @@
 					<center style="margin-left: 5px;">BBQ Q</center>
 				</td>
 				<td>
-					<div class="app3"></div>
-					<center style="margin-left: 5px;">app3</center>
+					<div class="colorcode">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/COLOR_CODE/main.php">
+							<img src="http://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Color-icon.png" style="width: 52px; height: 52px; margin-top: -2px; margin-left: -2px; border-radius: 12px;">
+						</a>
+					</div>
+					<center style="margin-left: 5px;">ColorCode</center>
 				</td>
 				<td>
-					<div class="app4"></div>
-					<center style="margin-left: 5px;">app4</center>
+					<div class="emergency">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/EMERGENCY/main.php">
+							<img src="https://www.patrickbalestra.com/emergency/images/icon.png" style="width: 52px; height: 52px; margin-top: -2px; margin-left: -2px; border-radius: 12px;">
+						</a>
+					</div>
+					<center style="margin-left: 5px;">Emergency</center>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<div class="app5"></div>
-					<center style="margin-left: 5px;">app5</center>
+					<div class="w3schools">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/W3SCHOOLS.COM/main.php">
+							<img src="http://kuruczcsaba.hu/img/icon-w3.jpg" style="width: 50px; height: 50px; margin-top: -1px; margin-left: -1px; border-radius: 12px;">
+						</a>
+					</div>
+					<center style="margin-left: 5px;">w3school</center>
 				</td>
 				<td>
-					<div class="app6"></div>
-					<center style="margin-left: 5px;">app6</center>
+					<div class="conan">
+						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/CONAN/main.php">
+							<img src="https://s-media-cache-ak0.pinimg.com/originals/f0/f7/74/f0f7748ef9be8d950871dcb4fc5628af.jpg" style="width: 50px; height: 50px; margin-top: -1px; margin-left: -1px; border-radius: 12px;">
+						</a>
+					</div>
+					<center style="margin-left: 5px;">Conan</center>
 				</td>
 				<td>
 					<div class="app7"></div>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CONAN | CHARACTER</title>
+	<title>CONAN | CHARACTERS</title>
 </head>
 	<style>
 		body {
@@ -65,7 +65,7 @@
 			width: 255px;
 			height: 40px;
 			background-color: #EAEDED;
-			margin-top: 22px;
+			margin-top: 141px;
 		}
 	</style>
 <body>
@@ -74,47 +74,34 @@
 		<div class="head_bar">
 			<table>
 				<tr>
-					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/CONAN/main.php">
-							<img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-back-128.png" style="width: 40px; height: 40px; margin-left: -5px; margin-top: -3px;">
-						</a>
-					</td>
-					<td style="font-size: 38px;"><center style="margin-top: -12px; margin-left: -5px;"> | </center></td>
-					<td style="font-size: 20px;"><center style="margin-bottom: 5px;">Characters</center></td>
+					<td></td>
+					<td style="font-size: 38px;"><center style="margin-top: -12px; margin-left: -5px;"></center></td>
+					<td style="font-size: 20px;"><center style="margin-bottom: 5px; margin-top: 5px;">Characters</center></td>
 				</tr>
 			</table>
 		</div><!--end head_bar-->
-		<div class="field">	
+		<div class="field">
 			<center>		
-				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/CONAN/character/Protagonists/Protagonists.php">
-					<button class="charac">Protagonists</button>
+				<a href="#">
+					<button class="charac">FBI</button>
 				</a>
 				<a href="#">
-					<button class="charac1">Detective Boys</button>
+					<button class="charac1">CIA</button>
 				</a>									
 				<a href="#">
-					<button class="charac">Family & Friends</button>
+					<button class="charac">Black Organization</button>
 				</a>		
 				<a href="#">
-					<button class="charac1">Tokyo Metropolitan Police District</button>
+					<button class="charac1">Magic Kaito</button>
 				</a>					
 				<a href="#">
-					<button class="charac">Osaka Police District</button>
-				</a>
-				<a href="#">
-					<button class="charac1">Nagano Police District</button>
-				</a>					
-				<a href="#">
-					<button class="charac">Other police districts</button>
-				</a>			
-				<a href="#">
-					<button class="charac1">Public Security Bureau</button>
-				</a>
+					<button class="charac">Others</button>
+				</a>	
 			</center>					
 		</div><!--end field-->
 		<div class="footer">
-			<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/CONAN/character2.php">
-				<img src="https://cdn0.iconfinder.com/data/icons/arrows-android-l-lollipop-icon-pack/24/next-128.png" style="width: 40px; height: 40px; float: right;">
+			<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/CONAN/character.php">
+				<img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-back-128.png" style="width: 40px; height: 40px; margin-left: -5px; margin-top: -3px;">
 			</a>
 		</div>
 	</div><!--end background-->

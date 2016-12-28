@@ -15,63 +15,57 @@
 			position: fixed;
 		}
 		.background {
-			background-image: url("http://fbi.dek-d.com/27/0226/7974/118633447");
+			background-image: url("https://cartoonth12.com/wp-content/uploads/2016/11/Conan-%E0%B9%82%E0%B8%84%E0%B8%99%E0%B8%B1%E0%B8%99.jpg");
 			background-size: cover;
 			width: 255px;
 			height: 454px;
 			margin-top: 73px;
 			margin-left: 106px;
 		}
-		.head_bar {
-			background-color: #273746;
-			width: 255px;
-			height: 40px;
-			color: #FFFFFF;
+		.field {
+			width: 235px;
+			height: auto;
+			margin-left: 10px;
+			margin-top: 10px;
 		}
-		.login_btn {
-			background-color: #85929E; 
+		.in {
+			background-color: #EAEDED;
 		    border: none;
-		    color: #FFFFFF;
-		    padding: 10px 92px;
+		    color: #000000;
+		    padding: 15px 54px;
 		    text-align: center;
 		    text-decoration: none;
 		    display: inline-block;
-		    font-size: 18px;
-		    margin-top: 330px;
-		    margin-left: 10px;
+		    font-size: 16px;
+		    margin-top: 300px;
 		    border-radius: 5px;
 		}
-		.register {
-			color: #FFFFFF;
-			margin-top: 7px;
+		.exit {
+			background-color: #EAEDED;
+		    border: none;
+		    color: #000000;
+		    padding: 15px 100px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 16px;
+		    margin-top: 15px;
+		    border-radius: 5px;
 		}
 	</style>
 <body>
 <div class="container">
 	<div class="background">
-		<div class="head_bar">
-			<table>
-				<tr>
-					<td>
-						<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/screen.php">
-							<img src="http://th.japantravel.com/images/left-arrow.png" style="width: 40px; height: 40px; margin-left: -5px; margin-top: -3px;">
-						</a>
-					</td>
-					<td style="font-size: 38px;"><center style="margin-top: -12px; margin-left: -5px;"> | </center></td>
-					<td style="font-size: 20px;"><center style="margin-bottom: 5px;">Conan</center></td>
-				</tr>
-			</table>
-		</div><!--end head_bar-->
-		<center>
-			<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/CONAN/login.php">
-				<div class="login_btn">Log in</div>
-			</a>
-		</center>
-		<center>
-			<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/CONAN/register.php">
-				<div class="register"><u>Register</u></div>
-			</a>
-		</center>
+		<div class="field">
+			<center>
+				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/CONAN/character.php">
+					<div class="in">Go to Main Page</div>
+				</a>
+				<a href="file:///C:/xampp/htdocs/test/test/SMARTPHONE/screen.php">
+					<div class="exit">Exit</div>
+				</a>
+			</center>
+		</div>
 	</div><!--end background-->
 </div><!--end container-->
 </body>

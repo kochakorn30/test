@@ -133,6 +133,77 @@
         font-size: 20px;
         font-weight: bold;
     }
+    .out_btn_one_two {
+        background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_two_two {
+        background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_three_two {
+        background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_four_two {
+        background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_five_two {
+        background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_six_two {
+        background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .out_btn_seven_two {
+        background-color: #E78585;
+        padding: 30px 50px;
+        text-decoration: none;
+        text-align: center;
+        display:inline-block;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
    	.plus_two {
        	background-color: #000000;
      	border-color: #FFFFFF;
@@ -875,6 +946,7 @@
 							</div><!--end seven_one-->
 							<!--..............................-->
 	<!--floor 2-->
+                           
 	<!--floor 3-->
 	<!--floor 4-->
 	<!--floor 5-->
@@ -1201,16 +1273,225 @@
 	});
 	//end floor 1
 	//floor 2
+    $(document).ready(function(){
+        $(".out_btn_one_two").click(function(){
+            $("#out_one_two").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_two_two").click(function(){
+            $("#out_two_two").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_three_two").click(function(){
+            $("#out_three_two").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_four_two").click(function(){
+            $("#out_four_two").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_five_two").click(function(){
+            $("#out_five_two").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_six_two").click(function(){
+            $("#out_six_two").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_seven_two").click(function(){
+            $("#out_seven_two").empty();
+        });
+    });
 	//end floor 2
 	//floor 3
+    $(document).ready(function(){
+        $(".out_btn_one_two").click(function(){
+            $("#out_one_three").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_two_three").click(function(){
+            $("#out_two_three").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_three_three").click(function(){
+            $("#out_three_three").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_four_three").click(function(){
+            $("#out_four_three").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_five_three").click(function(){
+            $("#out_five_three").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_six_three").click(function(){
+            $("#out_six_three").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_seven_three").click(function(){
+            $("#out_seven_three").empty();
+        });
+    });
 	//end floor 3
 	//floor 4
+    $(document).ready(function(){
+        $(".out_btn_one_four").click(function(){
+            $("#out_one_four").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_two_four").click(function(){
+            $("#out_two_four").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_three_four").click(function(){
+            $("#out_three_four").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_four_four").click(function(){
+            $("#out_four_four").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_five_four").click(function(){
+            $("#out_five_four").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_six_four").click(function(){
+            $("#out_six_four").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_seven_four").click(function(){
+            $("#out_seven_four").empty();
+        });
+    });
 	//end floor 4
 	//floor 5
+    $(document).ready(function(){
+        $(".out_btn_one_five").click(function(){
+            $("#out_one_five").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_two_five").click(function(){
+            $("#out_two_five").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_three_five").click(function(){
+            $("#out_three_five").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_four_five").click(function(){
+            $("#out_four_five").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_five_five").click(function(){
+            $("#out_five_five").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_six_five").click(function(){
+            $("#out_six_five").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_seven_five").click(function(){
+            $("#out_seven_five").empty();
+        });
+    });
 	//end floor 5
 	//floor 6
+    $(document).ready(function(){
+        $(".out_btn_one_six").click(function(){
+            $("#out_one_six").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_two_six").click(function(){
+            $("#out_two_six").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_three_six").click(function(){
+            $("#out_three_six").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_four_six").click(function(){
+            $("#out_four_six").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_five_six").click(function(){
+            $("#out_five_six").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_six_six").click(function(){
+            $("#out_six_six").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_seven_six").click(function(){
+            $("#out_seven_six").empty();
+    });
 	//end floor 6
 	//floor 7
+    $(document).ready(function(){
+        $(".out_btn_one_seven").click(function(){
+            $("#out_one_seven").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_two_seven").click(function(){
+            $("#out_two_seven").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_three_seven").click(function(){
+            $("#out_three_seven").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_four_seven").click(function(){
+            $("#out_four_seven").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_five_seven").click(function(){
+            $("#out_five_seven").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_six_seven").click(function(){
+            $("#out_six_seven").empty();
+        });
+    });
+    $(document).ready(function(){
+        $(".out_btn_seven_seven").click(function(){
+            $("#out_seven_seven").empty();
+        });
+    });
 	//end floor 7
 	//end check out
 	//total clear
